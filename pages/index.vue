@@ -105,6 +105,10 @@ export default {
     }
   }
 
+  .text-h3 {
+    margin: 0;
+  }
+
   .case-study-1 {
     display: flex;
     flex-direction: row;
