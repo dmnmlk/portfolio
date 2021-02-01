@@ -1,14 +1,19 @@
 <template>
   <v-container>
-    <div class="above-the-fold">
-      <div class="text-and-image">
+    <div class="above-the-fold d-flex flex-column justify-space-around align-center">
+      <div class="d-flex justify-space-between align-center">
         <div>
-          <div class="text-h1">
+          <div class="text-h1 mb-8">
             <div v-if="$vuetify.breakpoint.smAndUp">
               Hi, I'm Damian Malek
             </div>
             <div v-else>
-              Hi, I'm<br /> Damian Malek
+              <div>
+                Hi, I'm
+              </div>
+              <div>
+                Damian Malek
+              </div>
             </div>
           </div>
           <div class="text-h3">
@@ -32,23 +37,32 @@
         </v-icon>
       </div>
     </div>
-    <div class="case-studies">
-      <div class="case-study-1">
+    <div>
+      <div class="d-flex justfy-space-between align-center flex-column flex-md-row">
         <v-img
           :src="require('~/assets/images/homepage/hiking_app.png')"
           :lazy-src="require('~/assets/images/homepage/hiking_app.png')"
           contain
           :height="$vuetify.breakpoint.smAndDown ? '250px' : '618px'"
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
         />
-        <div class="cs-text">
-          <div class="text-caption">
+        <div class="cs-text mt-10 mt-md-0">
+          <div class="text-caption grey-color mb-4">
             Case Study / Concept project
           </div>
-          <div class="text-h3 font-weight-bold">
+          <div class="text-h3 mb-4 font-weight-bold">
             Hiking mApp
           </div>
-          <div class="text-body-1">
+          <div class="text-body-1 mb-4">
             Map based application that allows you to create hiking routes and collect information about your badges.
+          </div>
+          <div class="mb-4">
+            <v-chip>
+              UX/UI Designer
+            </v-chip>
+            <v-chip>
+              UX Researcher
+            </v-chip>
           </div>
           <ButtonHomepage />
         </div>
@@ -63,69 +77,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-  @import '~vuetify/src/styles/styles.sass';
-
-  .container {
-    max-width: 1080px;
-  }
-
-  .above-the-fold {
-    height: calc(100vh - 57px); //57px ma desktop header
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .arrow-container {
-    width: 40px;
-  }
-
-  .text-and-image {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    & .text-h1 {
-      margin-bottom: 40px;
-    }
-  }
-
   .cs-text {
-    max-width: 504px;
-    & div {
-      padding-bottom: 16px;
-    }
-
-    & .text-caption {
-      color: rgba(48, 54, 51, 0.5);
-      @media #{map-get($display-breakpoints, 'sm-and-down')} {
-        margin-top: 40px;
-      }
-    }
-  }
-
-  .text-h3 {
-    margin: 0;
-  }
-
-  .case-study-1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-
-    @media #{map-get($display-breakpoints, 'sm-and-down')} {
-      flex-direction: column;
-    }
-  }
-
-  @-webkit-keyframes downarrow {
-    0% { -webkit-transform: translateY(0); opacity: 0.6 }
-    100% { -webkit-transform: translateY(0.4em); opacity: 1 }
-  }
-  .arrow-down {
-    -webkit-animation: downarrow 1.0s infinite alternate ease-in-out;
+    max-width: 508px; // for 40px between text and image
   }
 </style>

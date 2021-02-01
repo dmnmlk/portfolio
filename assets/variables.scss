@@ -4,25 +4,11 @@
 // $font-size-root: 20px;
 @import '~vuetify/src/styles/settings/variables.scss';
 
+//override
 $heading-font-family: 'Playfair Display', serif;
 $body-font-family: 'Montserrat', sans-serif;
 $button-font-family: 'Roboto', sans-serif;
 $font-size-root: 16px;
-
-@media #{map-get($display-breakpoints, 'md-and-down')} {
-  $font-size-root: 8px;
-}
-
-.text-h3 {
-  margin: 80px 0 40px;
-}
-
-.centered-text {
-  margin: 0 auto;
-  max-width: 720px;
-}
-
-// $gradient-accent: linear-gradient(to top right, #27a658 0%, #4fce80 100%);
 
 $material-light: (
   'background': #EEECE8
@@ -86,5 +72,37 @@ $headings: (
     'text-transform': uppercase
   )
 );
+
+//my styles
+.mw720 {
+  max-width: 720px;
+}
+
+.container {
+  max-width: 1080px;
+}
+
+.grey-color {
+  color: rgba(48, 54, 51, 0.5);
+}
+
+// arrow
+.arrow-container {
+  width: 40px;
+}
+
+// arrow animation
+@-webkit-keyframes downarrow {
+  0% { -webkit-transform: translateY(0); opacity: 0.6 }
+  100% { -webkit-transform: translateY(0.4em); opacity: 1 }
+}
+.arrow-down {
+  -webkit-animation: downarrow 1.0s infinite alternate ease-in-out;
+}
+
+.above-the-fold {
+  height: calc(100vh - 57px); //57px ma desktop header
+  max-height: 1000px;
+}
 
 @import '~vuetify/src/styles/styles.sass';

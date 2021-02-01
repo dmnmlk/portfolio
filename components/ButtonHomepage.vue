@@ -3,7 +3,6 @@
     <v-hover
       v-slot="{ hover }"
     >
-
       <v-btn
         x-large
         :block="$vuetify.breakpoint.smAndDown ? true : false"
@@ -22,9 +21,8 @@
   @import '~vuetify/src/styles/styles.sass';
 
   .button {
-    // color: black;
     @media #{map-get($display-breakpoints, 'md-and-up')} {
-      margin-top: 64px;
+      margin-top: 40px;
     }
   }
   .v-btn:before {
