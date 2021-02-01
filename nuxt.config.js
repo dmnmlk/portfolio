@@ -1,5 +1,3 @@
-import colors from 'vuetify/es5/util/colors'
-
 export default {
   ssr: false,
   // Target (https://go.nuxtjs.dev/config-target)
@@ -54,9 +52,9 @@ export default {
     theme: {
       themes: {
         light: {
-          primary: '#3BBA6C',
-          accent: '#303633',
-          secondary: '#EEECE8',
+          primary: '#303633', // black
+          accent: '#3BBA6C', // green
+          secondary: '#EEECE8', // white
         }
       }
     }

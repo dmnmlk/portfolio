@@ -1,7 +1,10 @@
 <template>
   <v-app>
-    <DesktopHeader />
-    <Nuxt />
+    <Header />
+    <v-main>
+      <Nuxt />
+    </v-main>
+    <Footer />
   </v-app>
 </template>
 

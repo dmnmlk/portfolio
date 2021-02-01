@@ -1,9 +1,10 @@
 <template>
   <v-app>
-    <MobileHeader />
+    <Header />
     <v-main>
-      <Nuxt />
+    <Nuxt />
     </v-main>
+    <Footer />
   </v-app>
 </template>
 
