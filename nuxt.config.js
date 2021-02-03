@@ -48,6 +48,11 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
+    // treeShake: {
+    //   loaderOptions: {
+    //     progressiveImages: true
+    //   }
+    // },
     // defaultAssets: false,
     theme: {
       themes: {

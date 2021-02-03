@@ -285,7 +285,7 @@
         Information Architecture
       </div>
       <div class="text-body-1 mx-auto mw720">
-        IA was based on surverys and competitor analysis. Modules such as "Badges", "Mountain Crowns" or "Long-distance trails" will be defined later in research.
+        IA was based on surverys and competitor analysis. Modules such as "Badges", "Mountain Crowns" or "Long-distance trails" will be defined later.
       </div>
       <v-img
         class="mt-6"
@@ -361,7 +361,7 @@
       <div class="text-body-1 mx-auto mw720">
         Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
       </div>
-      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720">
+      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720 mt-6">
         Design challenge #2
       </div>
       <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
@@ -379,15 +379,65 @@
           :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
         />
         <v-img
-          class="mt-6 mb-md-6"
+          class="mt-6 mb-6"
           :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2.png')"
           :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '666px'"
         />
       </div>
       <div class="text-body-1 mx-auto mw720">
-        Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
+        As the clickable area of the map should be as large as possible, I decided to use the map legend from the second version. When it comes to the presentation of several POIs in one place, I chose the version from the second idea for design transparency. However, I left the idea of grouping pins for future testing because at this stage it was hard to say what would be better.
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Design system
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        The design system (like the design) was created in Figma.I used variants to make it easier to work with multiple versions of one components.
+      </div>
+      <div class="d-flex justify-space-between flex-column flex-md-row">
+        <v-img
+          class="mt-6 mb-md-6"
+          :src="require('~/assets/images/hiking_app/design-system/1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/design-system/1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '400px'"
+        />
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/design-system/2.png')"
+          :lazy-src="require('~/assets/images/hiking_app/design-system/2.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '600px'"
+        />
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        The design system itself significantly accelerated my work as a source of truth.
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        8px grid
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        Additionally I made whole application using 8pt grid.
+      </div>
+      <div class="d-flex justify-space-between justify-md-center flex-column flex-md-row">
+        <v-img
+          class="mt-6 mb-md-6 mr-md-10"
+          :src="require('~/assets/images/hiking_app/8pxgrid/1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/8pxgrid/1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '45%' : '258px'"
+        />
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/8pxgrid/2.png')"
+          :lazy-src="require('~/assets/images/hiking_app/8pxgrid/2.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '45%' : '258px'"
+        />
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        It made my design more consistent across different views.
       </div>
     </div>
   </v-container>
