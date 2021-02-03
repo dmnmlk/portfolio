@@ -76,7 +76,7 @@
         </div>
       </div>
       <div>
-        <div class="text-h4 mt-8 mb-4 font-weight-bold">
+        <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Overview
         </div>
         <div class="text-body-1">
@@ -84,7 +84,7 @@
         </div>
       </div>
       <div>
-        <div class="text-h4 mt-8 mb-4 font-weight-bold">
+        <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Challenges
         </div>
         <div class="mb-8">
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div>
-        <div class="text-h4 mt-8 mb-4 font-weight-bold">
+        <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Goals
         </div>
         <div class="text-body-1">
@@ -127,7 +127,7 @@
         </div>
       </div>
       <div>
-        <div class="text-h4 mt-8 mb-4 font-weight-bold">
+        <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Case study sections
         </div>
         <div class="text-body-1">
@@ -157,7 +157,7 @@
       <div class="text-body-1 mx-auto mw720">
         During the summer holidays in 2020, I started hiking regularly in the Polish mountains. I discovered the possibility of collecting badges as achievements eg. after conquering all peeks in given mountain region. I started looking for information about badges, how they work and what is needed to earn them. I saw dozens of sites that weren't adapted to mobile phones and looked like this:
       </div>
-      <div class="d-flex justify-space-between mt-16 mb-16">
+      <div class="d-flex justify-space-between mt-6 mb-6">
         <v-img
           :src="require('~/assets/images/hiking_app/browser/browser_1.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_1.png')"
@@ -193,7 +193,7 @@
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
         2. Discover & define
       </div>
-      <div class="text-h4 mt-8 mb-4 font-weight-bold mx-auto mw720">
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Survey
       </div>
       <div class="text-body-1 mx-auto mw720">
@@ -253,12 +253,142 @@
           </div>
         </v-tab-item>
       </v-tabs>
+      <div class="text-body-1 mx-auto mw720 mt-sm-12">
+        - Almost one out of four people (22,6%) out there hiking in Polish mountains are collecting badges. This means that there is a potential for market share in this app segment.
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - There is a lot missing things in current apps available on market right now.
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Personas
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        Personas was based on surveys. They have been categorized upon whether someone collects badges or not. Personas was helpful later when I was designing app to remind myself who will ultimately use the app.
+      </div>
+      <div class="d-flex justify-space-between flex-column flex-md-row">
+        <v-img
+          class="mt-6"
+          :src="require('~/assets/images/hiking_app/personas/1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/personas/1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
+        />
+        <v-img
+          class="mt-6"
+          :src="require('~/assets/images/hiking_app/personas/2.png')"
+          :lazy-src="require('~/assets/images/hiking_app/personas/2.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
+        />
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Information Architecture
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        IA was based on surverys and competitor analysis. Modules such as "Badges", "Mountain Crowns" or "Long-distance trails" will be defined later in research.
+      </div>
+      <v-img
+        class="mt-6"
+        :src="require('~/assets/images/hiking_app/ia/ia.png')"
+        :lazy-src="require('~/assets/images/hiking_app/ia/ia.png')"
+        contain
+      />
     </div>
-    <div class="text-body-1 mx-auto mw720 mt-sm-12">
-      - Almost one out of four people (22,6%) out there hiking in Polish mountains are collecting badges. This means that there is a potential for market share in this app segment.
-    </div>
-    <div class="text-body-1 mx-auto mw720 mt-4">
-      - There is a lot missing things in current apps available on market right now.
+    <div>
+      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
+        3. Design
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Whiteboarding
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        After the discovery / research phase, I started sketching the first views on the whiteboard. It quickly turned out that for some views I have more questions that answers.
+      </div>
+      <div class="d-flex justify-space-between flex-column flex-md-row">
+        <v-img
+          class="mt-6 mb-md-6"
+          :src="require('~/assets/images/hiking_app/whiteboard/1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/whiteboard/1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
+        />
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/whiteboard/1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/whiteboard/1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
+        />
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        Selected design challenges that I encountered during initial sketches are explored in next chapter.
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Exploring ideas on low-fi mockups
+      </div>
+      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720">
+        Design challenge #1
+      </div>
+      <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
+        How to show list of badges?
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        I had few ideas on how to create a badge list so that user immediately knew what was going on and what to expect.
+      </div>
+      <div class="d-flex justify-space-between flex-column flex-md-row">
+        <v-img
+          class="mt-6 mb-md-6"
+          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+        />
+        <v-img
+          class="mt-6 mb-md-6"
+          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_2.png')"
+          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_2.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+        />
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_3.png')"
+          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_3.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+        />
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
+      </div>
+      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720">
+        Design challenge #2
+      </div>
+      <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
+        How to distinguish POIs on the map at the same time?
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        POI (Point of interest) - is a point in space that may be useful or worth attention. In my application, these are mainly mountain peaks and observation towers.
+      </div>
+      <div class="d-flex justify-space-between flex-column flex-md-row">
+        <v-img
+          class="mt-6 mb-md-6"
+          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+        />
+        <v-img
+          class="mt-6 mb-md-6"
+          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2.png')"
+          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+        />
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
+      </div>
     </div>
   </v-container>
 </template>
@@ -301,6 +431,7 @@ export default {
     }
   }
 
+  // fixing problem with vuetify tabs
   .survey-item {
     background-color:#EEECE8;
     height: 371px;

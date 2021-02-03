@@ -63,6 +63,14 @@ $headings: (
     'font-family': $body-font-family,
     'text-transform': false
   ),
+  'above-h4': (
+    'size': .750rem,
+    'weight': 700,
+    'line-height': 1.5rem,
+    'letter-spacing': .07rem,
+    'font-family': $button-font-family,
+    'text-transform': uppercase
+  ),
   'button': (
     'size': 1rem,
     'weight': 700,
@@ -88,6 +96,10 @@ $headings: (
 
 .grey-color {
   color: rgba(48, 54, 51, 0.5);
+}
+
+.green-color {
+  color: #3BBA6C;
 }
 
 // arrow
