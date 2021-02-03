@@ -162,25 +162,27 @@
           :src="require('~/assets/images/hiking_app/browser/browser_1.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '25%' : '258px'"
+          :max-width="$vuetify.breakpoint.smAndDown ? '45%' : '258px'"
         />
         <v-img
           :src="require('~/assets/images/hiking_app/browser/browser_2.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_2.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '25%' : '258px'"
+          :max-width="$vuetify.breakpoint.smAndDown ? '45%' : '258px'"
         />
         <v-img
+          class="d-none d-md-block"
           :src="require('~/assets/images/hiking_app/browser/browser_3.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_3.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '25%' : '258px'"
+          max-width="258px"
         />
         <v-img
+          class="d-none d-md-block"
           :src="require('~/assets/images/hiking_app/browser/browser_4.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_4.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '25%' : '258px'"
+          max-width="258px"
         />
       </div>
       <div class="text-body-1 mx-auto mw720">
@@ -198,45 +200,65 @@
         Conducting the survey was the first step in understanding how many people might be interested in this app. <strong>261 people</strong> participated in the survey, It contained 10 single and multiple choice questions. Additionally, in some questions, users had the option of adding their own answer.
       </div>
       <v-tabs
-        v-model="tab"
         class="mx-auto mw720 mt-6"
         background-color="transparent"
         grow
       >
-        <v-tab class="text-body-1 font-weight-bold">
+        <v-tab class="text-caption text-sm-body-1 font-weight-bold">
           Diagram 1
         </v-tab>
-        <v-tab class="text-body-1 font-weight-bold">
+        <v-tab class="text-caption text-sm-body-1 font-weight-bold">
           Diagram 2
         </v-tab>
-        <v-tab class="text-body-1 font-weight-bold">
+        <v-tab class="text-caption text-sm-body-1 font-weight-bold">
           Diagram 3
         </v-tab>
         <v-tab-item>
-          <v-img
-            :src="require('~/assets/images/hiking_app/survey/1.png')"
-            :lazy-src="require('~/assets/images/hiking_app/survey/1.png')"
-            contain
-            :max-width="'100%'"
-          />
+          <div
+            class="survey-item"
+          >
+            <v-img
+              :src="require('~/assets/images/hiking_app/survey/1.png')"
+              :lazy-src="require('~/assets/images/hiking_app/survey/1.png')"
+              contain
+              width="100%"
+              height="auto"
+            />
+          </div>
         </v-tab-item>
         <v-tab-item>
-          <v-img
-            :src="require('~/assets/images/hiking_app/survey/2.png')"
-            :lazy-src="require('~/assets/images/hiking_app/survey/2.png')"
-            contain
-            :max-width="'100%'"
-          />
+          <div
+            class="survey-item"
+          >
+            <v-img
+              :src="require('~/assets/images/hiking_app/survey/2.png')"
+              :lazy-src="require('~/assets/images/hiking_app/survey/2.png')"
+              contain
+              width="100%"
+              height="auto"
+            />
+          </div>
         </v-tab-item>
         <v-tab-item>
-          <v-img
-            :src="require('~/assets/images/hiking_app/survey/3.png')"
-            :lazy-src="require('~/assets/images/hiking_app/survey/3.png')"
-            contain
-            :max-width="'100%'"
-          />
+          <div
+            class="survey-item"
+          >
+            <v-img
+              :src="require('~/assets/images/hiking_app/survey/3.png')"
+              :lazy-src="require('~/assets/images/hiking_app/survey/3.png')"
+              contain
+              width="100%"
+              height="auto"
+            />
+          </div>
         </v-tab-item>
       </v-tabs>
+    </div>
+    <div class="text-body-1 mx-auto mw720 mt-sm-12">
+      - Almost one out of four people (22,6%) out there hiking in Polish mountains are collecting badges. This means that there is a potential for market share in this app segment.
+    </div>
+    <div class="text-body-1 mx-auto mw720 mt-4">
+      - There is a lot missing things in current apps available on market right now.
     </div>
   </v-container>
 </template>
@@ -276,6 +298,23 @@ export default {
       @media #{map-get($display-breakpoints, 'sm-and-down')} {
         width: 100%;
       }
+    }
+  }
+
+  .survey-item {
+    background-color:#EEECE8;
+    height: 371px;
+    @media (max-width: 700px) {
+      height: 350px;
+    }
+    @media (max-width: 600px) {
+      height: 313px;
+    }
+    @media (max-width: 500px) {
+      height: 260px;
+    }
+    @media (max-width: 400px) {
+      height: 205px;
     }
   }
 </style>
