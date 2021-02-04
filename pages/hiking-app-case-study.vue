@@ -9,16 +9,8 @@
           :src="require('~/assets/images/homepage/hiking_app.png')"
           :lazy-src="require('~/assets/images/homepage/hiking_app.png')"
           contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '118px' : '291px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '150px' : '291px'"
         />
-      </div>
-      <div class="arrow-container">
-        <v-icon
-          class="arrow-down"
-          x-large
-        >
-          mdi-chevron-down
-        </v-icon>
       </div>
     </div>
     <div class="cs-project-scope mx-auto mw720">
@@ -63,7 +55,17 @@
             Tools:
           </div>
           <div class="detail-val text-body-1">
-            Figma, Maze, Notion, Google Forms
+            <ul>
+              <li>
+                Figma
+              </li>
+              <li>
+                Maze
+              </li>
+              <li>
+                Google Forms
+              </li>
+            </ul>
           </div>
         </div>
         <div class="detail d-flex flex-column flex-md-row justify-space-between mb-4">
@@ -71,7 +73,26 @@
             Deliverables:
           </div>
           <div class="detail-val text-body-1">
-            Survey results, personas, competitor analysis, low & high fi designs, prototypes, usability test reports with insights
+            <ul>
+              <li>
+                Survey results
+              </li>
+              <li>
+                Personas
+              </li>
+              <li>
+                Competitor analysis
+              </li>
+              <li>
+                Low & high fi designs
+              </li>
+              <li>
+                Prototypes
+              </li>
+              <li>
+                Usability test resports with insights
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -116,38 +137,42 @@
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Goals
         </div>
-        <div class="text-body-1">
-          1. Creating app that can be used alone on hiking trips without help from other similiar apps. It should have possibility to create routes, mark point of interests, gather data of different badge types and show statistics on completed routes in the past.
-        </div>
-        <div class="text-body-1">
-          2. Designs that includes all application states(success, error, info etc)
-        </div>
-        <div class="text-body-1">
-          3. Fully working prototype that will be used for usability tests and could be handed over to developers.
-        </div>
+        <ul>
+          <li class="mt-4">
+            Creating app that can be used alone on hiking trips without help from other similiar apps. It should have possibility to create routes, mark point of interests, gather data of different badge types and show statistics on completed routes in the past.
+          </li>
+          <li class="mt-4">
+            Designs that includes all application states(success, error, info etc)
+          </li>
+          <li class="mt-4">
+            Fully working prototype that will be used for usability tests and could be handed over to developers.
+          </li>
+        </ul>
       </div>
       <div>
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
-          Case study sections
+          Case study sections:
         </div>
-        <div class="text-body-1">
-          1. Initial idea & context
-        </div>
-        <div class="text-body-1">
-          2. Discover & define
-        </div>
-        <div class="text-body-1">
-          3. Design
-        </div>
-        <div class="text-body-1">
-          4. Test
-        </div>
-        <div class="text-body-1">
-          5. Final designs
-        </div>
-        <div class="text-body-1">
-          6. Conslusion & final thoughts
-        </div>
+        <ol>
+          <li class="mt-4">
+            Initial idea & context
+          </li>
+          <li class="mt-4">
+            Discover & define
+          </li>
+          <li class="mt-4">
+            Design
+          </li>
+          <li class="mt-4">
+            Test
+          </li>
+          <li class="mt-4">
+            Final designs
+          </li>
+          <li class="mt-4">
+            Conslusion & final thoughts
+          </li>
+        </ol>
       </div>
     </div>
     <div>
@@ -254,11 +279,16 @@
         </v-tab-item>
       </v-tabs>
       <div class="text-body-1 mx-auto mw720 mt-sm-12">
-        - Almost one out of four people (22,6%) out there hiking in Polish mountains are collecting badges. This means that there is a potential for market share in this app segment.
+        Selected insights:
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - There is a lot missing things in current apps available on market right now.
-      </div>
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          Almost one out of four people (22,6%) out there hiking in Polish mountains are collecting badges. This means that there is a <strong>potential for market share</strong> in this app segment.
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          There is a lot missing things in current apps available on market right now.
+        </li>
+      </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Personas
       </div>
@@ -420,9 +450,9 @@
       <div class="text-body-1 mx-auto mw720">
         Additionally I made whole application using 8pt grid.
       </div>
-      <div class="d-flex justify-space-between justify-md-center flex-column flex-md-row">
+      <div class="d-flex justify-space-between justify-md-center">
         <v-img
-          class="mt-6 mb-md-6 mr-md-10"
+          class="mt-6 mb-6 mr-md-10"
           :src="require('~/assets/images/hiking_app/8pxgrid/1.png')"
           :lazy-src="require('~/assets/images/hiking_app/8pxgrid/1.png')"
           contain
@@ -533,7 +563,7 @@
     </div>
     <div>
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
-        3. Test
+        4. Test
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Unmoderated usability tests
@@ -541,27 +571,31 @@
       <div class="text-body-1 mx-auto mw720">
         I conduceted 15 unmoderated usability tests with users who had experience with using this type of application. I ran the tests using the Maze tool (https://maze.design). The tests consisted of 4 tasks:
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - Add a route
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - Add a Long-distance trail
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - Add two Mountain Crowns
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - Show all points for two different Mountain Crowns on the map
-      </div>
-      <div class="text-body-1 mx-auto mw720">
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Add a route
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Add a Long-distance trail
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Add two Mountain Crowns
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Show all points for two different Mountain Crowns on the map
+        </li>
+      </ul>
+      <div class="text-body-1 mx-auto mw720 mt-10">
         Selected results and insights:
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - the bounce rate was 0% so no task was abadoned
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - the avg misclick rate was just 4.2% which means the touchpointa were well designed
-      </div>
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          The bounce rate was 0% so no task was abadoned
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          The average misclick rate was just 4.2% which means the touchpointa were well designed
+        </li>
+      </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Moderated usability tests
       </div>
@@ -571,33 +605,150 @@
         :lazy-src="require('~/assets/images/hiking_app/test/1.jpg')"
         max-height="550px"
       />
-      <div class="text-body-1 mx-auto mw720">
+      <div class="text-body-1 mx-auto mw720 mt-10">
         Additionally, I conducted 5 moderated usability tests with similar tasks so that I could see the user's reactions to the application in the real time.
       </div>
       <div class="text-body-1 mx-auto mw720">
         User quotes:
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - “l It's not for me since I don’t collect badges, but maybe one day I will start”
+      <div class="text-body-1 mx-auto mw720 mt-4 quote">
+        “l It's not for me since I don’t collect badges, but maybe one day I will start”
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - “So you can add several points on one map? Interesting”
+      <div class="text-body-1 mx-auto mw720 mt-4 quote">
+        “So you can add several points on one map? Interesting”
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - “l It's really easy to add new goals and everything is intuitive”
+      <div class="text-body-1 mx-auto mw720 mt-4 quote">
+        “l It's really easy to add new goals and everything is intuitive”
       </div>
-      <div class="text-body-1 mx-auto mw720">
+      <div class="text-body-1 mx-auto mw720 mt-10">
         After analizysing usability tests I found few pain points that was immediately fixed:
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - No proposed results in search
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          No proposed results in search
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Lack of restictions when selecting badge tiers
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Lack of "show all summits on map" button in summit list view
+        </li>
+      </ul>
+    </div>
+    <div>
+      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
+        5. Final designs
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - Lack of restictions when selecting badge tiers.
+      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-16">
+        <div>
+          <div class="text-h4 mt-12 mb-4 font-weight-bold">
+            Add new route
+          </div>
+          <div class="text-body-1">
+            With a few simple steps, the user can save his route in account.
+          </div>
+        </div>
+        <video
+          :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
+          :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
+          autoplay
+          loop
+          muted
+          playsinline
+        >
+          <source src="~/assets/images/hiking_app/mp4/1.webm" type="video/webm">
+          <source src="~/assets/images/hiking_app/mp4/1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        - Lack of restictions when selecting badge tiers.
+      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-16">
+        <video
+          :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
+          :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
+          autoplay
+          loop
+          muted
+          playsinline
+        >
+          <source src="~/assets/images/hiking_app/mp4/2.webm" type="video/webm">
+          <source src="~/assets/images/hiking_app/mp4/2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div>
+          <div class="text-h4 mt-12 mb-4 font-weight-bold">
+            Show mountain crowns on the map
+          </div>
+          <div class="text-body-1">
+            User can see information about several Mountain Crowns at the same time.
+          </div>
+        </div>
       </div>
+      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-16">
+        <div>
+          <div class="text-h4 mt-12 mb-4 font-weight-bold">
+            Long-distance trails
+          </div>
+          <div class="text-body-1">
+            User can add trail that can later use for trip planning.
+          </div>
+        </div>
+        <video
+          :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
+          :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
+          autoplay
+          loop
+          muted
+          playsinline
+        >
+          <source src="~/assets/images/hiking_app/mp4/3.webm" type="video/webm">
+          <source src="~/assets/images/hiking_app/mp4/3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+    <div>
+      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
+        6. Conclusions & final thoughts
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Ideas for future designs & tests
+      </div>
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Possibility to filter badges, Mountain Crowns and long-distance trails after organizer
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Ability to inform user about intersting places along the route he's actually in
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Possibility of dividing the long-distance trails into shorter routes. It might be useful for someone who is planning to begin the route and want divide one long-distance trail into few days.
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Inform people that it is possible to collect badges (e.g. while user is setting his route)
+        </li>
+      </ul>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Key takeaways
+      </div>
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Gamification was big part in this for sure, I was able to understand what drive people to fill their trip information in app.
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          Idea from scratch allowed me to fully understand design process from different perspectives.
+        </li>
+      </ul>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        What could I improve on my next project
+      </div>
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          I should have created a design system much earlier, to iterate quicker between different ideas in low and high fidelity designs.
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          I should pay more attention while creating questions for the survey, in later design stages it would be useful to know about e.g. phone that respondents use (android or ios)
+        </li>
+      </ul>
     </div>
   </v-container>
 </template>
@@ -617,7 +768,9 @@ export default {
       width: initial;
     }
 
-    & .text-h1 {
+    & .text-h1,
+    & .text-h4,
+    & .text-body-1 {
       max-width: 340px;
     }
   }

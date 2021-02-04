@@ -14,6 +14,18 @@ $material-light: (
   'background': #EEECE8
 );
 
+.v-application ul,
+.v-application ol {
+  padding-left: 0;
+  list-style-position: inside;  
+}
+
+.detail-val ul {
+  @media #{map-get($display-breakpoints, 'md-and-up')} {
+    list-style-position: outside;
+  }
+}
+
 $headings: (
   'h1': (
     'size': 3rem,
@@ -100,6 +112,13 @@ $headings: (
 
 .green-color {
   color: #3BBA6C;
+}
+
+.quote {
+  border-left: 2px solid #303633;
+  padding: 8px 0 8px 24px;
+  // background-color: rgba(48, 54, 51, 0.1);
+  font-style: italic;
 }
 
 // arrow
