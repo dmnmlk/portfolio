@@ -439,6 +439,165 @@
       <div class="text-body-1 mx-auto mw720">
         It made my design more consistent across different views.
       </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        High fidelity designs
+      </div>
+      <div class="d-flex justify-space-between">
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/2.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/2.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/3.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/3.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6 d-none d-md-block"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/4.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/4.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6 d-none d-md-block"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/5.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/5.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6 d-none d-md-block"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/6.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/6.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+      </div>
+      <div class="d-flex justify-space-between">
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/7.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/7.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/8.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/8.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/9.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/9.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6 d-none d-md-block"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/10.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/10.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6 d-none d-md-block"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/11.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/11.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+        <v-img
+          class="mt-6 mb-6 d-none d-md-block"
+          :src="require('~/assets/images/hiking_app/high-fi-designs/12.png')"
+          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/12.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+        />
+      </div>
+    </div>
+    <div>
+      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
+        3. Test
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Unmoderated usability tests
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        I conduceted 15 unmoderated usability tests with users who had experience with using this type of application. I ran the tests using the Maze tool (https://maze.design). The tests consisted of 4 tasks:
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - Add a route
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - Add a Long-distance trail
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - Add two Mountain Crowns
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - Show all points for two different Mountain Crowns on the map
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        Selected results and insights:
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - the bounce rate was 0% so no task was abadoned
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - the avg misclick rate was just 4.2% which means the touchpointa were well designed
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Moderated usability tests
+      </div>
+      <v-img
+        class="mt-6"
+        :src="require('~/assets/images/hiking_app/test/1.jpg')"
+        :lazy-src="require('~/assets/images/hiking_app/test/1.jpg')"
+        max-height="550px"
+      />
+      <div class="text-body-1 mx-auto mw720">
+        Additionally, I conducted 5 moderated usability tests with similar tasks so that I could see the user's reactions to the application in the real time.
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        User quotes:
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - “l It's not for me since I don’t collect badges, but maybe one day I will start”
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - “So you can add several points on one map? Interesting”
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - “l It's really easy to add new goals and everything is intuitive”
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        After analizysing usability tests I found few pain points that was immediately fixed:
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - No proposed results in search
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - Lack of restictions when selecting badge tiers.
+      </div>
+      <div class="text-body-1 mx-auto mw720 mt-4">
+        - Lack of restictions when selecting badge tiers.
+      </div>
     </div>
   </v-container>
 </template>
