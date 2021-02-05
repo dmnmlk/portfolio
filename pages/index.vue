@@ -1,8 +1,8 @@
 <template>
   <v-container>
-    <div class="above-the-fold d-flex flex-column justify-space-around align-center">
-      <div class="d-flex justify-space-between align-center">
-        <div>
+    <div class="d-flex flex-column justify-space-around align-center">
+      <div class="d-flex justify-space-between align-center" style="width: 100%;">
+        <div class="mw720 mt-16 mb-16">
           <div class="text-h1 mb-8">
             <div v-if="$vuetify.breakpoint.smAndUp">
               Hi, I'm Damian Malek
@@ -16,58 +16,50 @@
               </div>
             </div>
           </div>
-          <div class="text-h3">
-            UX Designer with full stack developer background
+          <div class="text-h4">
+            UX Designer with full stack developer background. I have over 1.5 year of commercial experience as product designer.
           </div>
         </div>
-        <v-img
-          :src="require('~/assets/images/homepage/heroimg.png')"
-          :lazy-src="require('~/assets/images/homepage/heroimg.png')"
-          max-width="504px"
-          class="d-none d-md-block"
-        />
       </div>
-      <div class="arrow-container">
-        <v-icon
-          class="arrow-down"
-          x-large
-          center
+    </div>
+    <NuxtLink to="/hiking-app-case-study" class="text-decoration-none menu-item text-body-1">
+      <v-hover
+        v-slot="{ hover }"
+      >
+        <v-card
+          tile
+          :elevation="hover ? 10 : 4"
+          class="d-flex align-center flex-column flex-md-row mx-sm-auto mx-md-0"
+          :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
         >
-          mdi-chevron-down
-        </v-icon>
-      </div>
-    </div>
-    <div>
-      <div class="d-flex justfy-space-between align-center flex-column flex-md-row">
-        <v-img
-          :src="require('~/assets/images/homepage/hiking_app.png')"
-          :lazy-src="require('~/assets/images/homepage/hiking_app.png')"
-          contain
-          :height="$vuetify.breakpoint.smAndDown ? '250px' : '618px'"
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
-        />
-        <div class="cs-text mt-10 mt-md-0">
-          <div class="text-overline grey-color mb-4">
-            Case Study / Concept project
+          <v-img
+            :src="require('~/assets/images/homepage/hiking_app_rec.png')"
+            :lazy-src="require('~/assets/images/homepage/hiking_app_rec.png')"
+            contain
+            :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
+          />
+          <div>
+            <v-card-title class="text-h3 font-weight-bold">
+              Hiking mApp
+            </v-card-title>
+            <v-card-text class="text-body-1">
+              <div class="text-overline grey-color mb-6">
+                Case Study / Concept project
+              </div>
+              Map based application that allows you to create hiking routes and collect information about your badges.
+              <!-- <div class="mt-6">
+                <v-chip label>
+                  UX/UI Designer
+                </v-chip>
+                <v-chip label>
+                  UX Researcher
+                </v-chip>
+              </div> -->
+            </v-card-text>
           </div>
-          <div class="text-h3 mb-4 font-weight-bold">
-            Hiking mApp
-          </div>
-          <div class="text-body-1 mb-4">
-            Map based application that allows you to create hiking routes and collect information about your badges.
-          </div>
-          <div class="mb-4">
-            <v-chip>
-              UX/UI Designer
-            </v-chip>
-            <v-chip>
-              UX Researcher
-            </v-chip>
-          </div>
-          <ButtonHomepage />
-        </div>
-      </div>
-    </div>
+        </v-card>
+      </v-hover>
+    </NuxtLink>
   </v-container>
 </template>
 
@@ -78,6 +70,23 @@ export default {
 </script>
 <style lang="scss" scoped>
   .cs-text {
-    max-width: 508px; // for 40px between text and image
+    max-width: 488px; // for 40px between text and image
+  }
+  .v-card:hover {
+    -moz-transform: translate(0px, -8px);
+    -ms-transform: translate(0px, -8px);
+    -o-transform: translate(0px, -8px);
+    -webkit-transform: translate(0px, -8px);
+    transform: translate(0px, -8px);
+    transition: 0.3s;
+  }
+
+  .v-card {
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    transition: 0.3s;
   }
 </style>
