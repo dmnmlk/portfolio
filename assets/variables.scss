@@ -139,7 +139,7 @@ $headings: (
   max-height: 1000px;
 
   @media #{map-get($display-breakpoints, 'sm-and-down')} {
-    height: auto;
+    // height: auto;
   }
 }
 

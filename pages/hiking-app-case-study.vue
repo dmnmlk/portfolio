@@ -6,7 +6,6 @@
           Hiking mApp case study
         </div>
         <v-img
-          class="mt-10 mt-sm-0"
           :src="require('~/assets/images/homepage/hiking_app.png')"
           :lazy-src="require('~/assets/images/homepage/hiking_app.png')"
           contain
