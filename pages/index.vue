@@ -47,7 +47,7 @@
           :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
         />
         <div class="cs-text mt-10 mt-md-0">
-          <div class="text-caption grey-color mb-4">
+          <div class="text-overline grey-color mb-4">
             Case Study / Concept project
           </div>
           <div class="text-h3 mb-4 font-weight-bold">

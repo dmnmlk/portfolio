@@ -357,7 +357,7 @@
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Exploring ideas on low-fi mockups
       </div>
-      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720 mt-10">
+      <div class="text-overline green-color font-weight-bold mx-auto mw720 mt-10">
         Design challenge #1
       </div>
       <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
@@ -392,7 +392,7 @@
       <div class="text-body-1 mx-auto mw720 mt-6">
         Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
       </div>
-      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720 mt-10">
+      <div class="text-overline green-color font-weight-bold mx-auto mw720 mt-10">
         Design challenge #2
       </div>
       <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
