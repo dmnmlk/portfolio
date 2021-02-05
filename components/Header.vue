@@ -14,8 +14,8 @@
       <div class="top-menu">
         <!-- <NuxtLink to="/" class="text-decoration-none menu-item text-body-1">
           Case Studies
-        </NuxtLink> -->
-        <!-- <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
+        </NuxtLink>
+        <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
           About
         </NuxtLink> -->
       </div>
