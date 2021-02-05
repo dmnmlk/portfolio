@@ -6,6 +6,7 @@
           Hiking mApp case study
         </div>
         <v-img
+          class="mt-10 mt-sm-0"
           :src="require('~/assets/images/homepage/hiking_app.png')"
           :lazy-src="require('~/assets/images/homepage/hiking_app.png')"
           contain
@@ -182,32 +183,32 @@
       <div class="text-body-1 mx-auto mw720">
         During the summer holidays in 2020, I started hiking regularly in the Polish mountains. I discovered the possibility of collecting badges as achievements eg. after conquering all peeks in given mountain region. I started looking for information about badges, how they work and what is needed to earn them. I saw dozens of sites that weren't adapted to mobile phones and looked like this:
       </div>
-      <div class="d-flex justify-space-between mt-6 mb-6">
+      <div class="d-flex justify-space-around justify-lg-space-between mt-6 mb-6">
         <v-img
           :src="require('~/assets/images/hiking_app/browser/browser_1.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '45%' : '258px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '45%' : '250px'"
         />
         <v-img
           :src="require('~/assets/images/hiking_app/browser/browser_2.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_2.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '45%' : '258px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '45%' : '250px'"
         />
         <v-img
           class="d-none d-md-block"
           :src="require('~/assets/images/hiking_app/browser/browser_3.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_3.png')"
           contain
-          max-width="258px"
+          max-width="250px"
         />
         <v-img
-          class="d-none d-md-block"
+          class="d-none d-lg-block"
           :src="require('~/assets/images/hiking_app/browser/browser_4.png')"
           :lazy-src="require('~/assets/images/hiking_app/browser/browser_4.png')"
           contain
-          max-width="258px"
+          max-width="250px"
         />
       </div>
       <div class="text-body-1 mx-auto mw720">
@@ -295,20 +296,20 @@
       <div class="text-body-1 mx-auto mw720">
         Personas was based on surveys. They have been categorized upon whether someone collects badges or not. Personas was helpful later when I was designing app to remind myself who will ultimately use the app.
       </div>
-      <div class="d-flex justify-space-between flex-column flex-md-row">
+      <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
           class="mt-6"
           :src="require('~/assets/images/hiking_app/personas/1.png')"
           :lazy-src="require('~/assets/images/hiking_app/personas/1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
         <v-img
           class="mt-6"
           :src="require('~/assets/images/hiking_app/personas/2.png')"
           :lazy-src="require('~/assets/images/hiking_app/personas/2.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
@@ -334,29 +335,29 @@
       <div class="text-body-1 mx-auto mw720">
         After the discovery / research phase, I started sketching the first views on the whiteboard. It quickly turned out that for some views I have more questions that answers.
       </div>
-      <div class="d-flex justify-space-between flex-column flex-md-row">
+      <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
-          class="mt-6 mb-md-6"
+          class="mt-6"
           :src="require('~/assets/images/hiking_app/whiteboard/1.png')"
           :lazy-src="require('~/assets/images/hiking_app/whiteboard/1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
         <v-img
-          class="mt-6 mb-6"
+          class="mt-6"
           :src="require('~/assets/images/hiking_app/whiteboard/1.png')"
           :lazy-src="require('~/assets/images/hiking_app/whiteboard/1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '508px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
       </div>
-      <div class="text-body-1 mx-auto mw720">
+      <div class="text-body-1 mx-auto mw720 mt-6">
         Selected design challenges that I encountered during initial sketches are explored in next chapter.
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Exploring ideas on low-fi mockups
       </div>
-      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720">
+      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720 mt-10">
         Design challenge #1
       </div>
       <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
@@ -365,33 +366,33 @@
       <div class="text-body-1 mx-auto mw720">
         I had few ideas on how to create a badge list so that user immediately knew what was going on and what to expect.
       </div>
-      <div class="d-flex justify-space-between flex-column flex-md-row">
+      <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
-          class="mt-6 mb-md-6"
+          class="mt-6"
           :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_1.png')"
           :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
         />
         <v-img
-          class="mt-6 mb-md-6"
+          class="mt-6"
           :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_2.png')"
           :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_2.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
         />
         <v-img
-          class="mt-6 mb-6"
+          class="mt-6"
           :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_3.png')"
           :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_3.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
         />
       </div>
-      <div class="text-body-1 mx-auto mw720">
+      <div class="text-body-1 mx-auto mw720 mt-6">
         Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
       </div>
-      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720 mt-6">
+      <div class="text-above-h4 green-color font-weight-bold mx-auto mw720 mt-10">
         Design challenge #2
       </div>
       <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
@@ -400,20 +401,27 @@
       <div class="text-body-1 mx-auto mw720">
         POI (Point of interest) - is a point in space that may be useful or worth attention. In my application, these are mainly mountain peaks and observation towers.
       </div>
-      <div class="d-flex justify-space-between flex-column flex-md-row">
+      <div class="d-flex justify-space-between align-center flex-column flex-sm-row">
         <v-img
           class="mt-6 mb-md-6"
           :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_1.png')"
           :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '333px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '33%' : '333px'"
         />
         <v-img
-          class="mt-6 mb-6"
+          class="mt-6 mb-6 d-none d-sm-block"
           :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2.png')"
           :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '666px'"
+          :max-width="$vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly ? '63%' : '666px'"
+        />
+        <v-img
+          class="mt-6 mb-6 d-block d-sm-none"
+          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2_mobile.png')"
+          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2_mobile.png')"
+          contain
+          max-width="100%"
         />
       </div>
       <div class="text-body-1 mx-auto mw720">
@@ -425,20 +433,20 @@
       <div class="text-body-1 mx-auto mw720">
         The design system (like the design) was created in Figma.I used variants to make it easier to work with multiple versions of one components.
       </div>
-      <div class="d-flex justify-space-between flex-column flex-md-row">
+      <div class="d-flex justify-space-between align-center flex-column flex-sm-row">
         <v-img
           class="mt-6 mb-md-6"
           :src="require('~/assets/images/hiking_app/design-system/1.png')"
           :lazy-src="require('~/assets/images/hiking_app/design-system/1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '400px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '38%' : '400px'"
         />
         <v-img
           class="mt-6 mb-6"
           :src="require('~/assets/images/hiking_app/design-system/2.png')"
           :lazy-src="require('~/assets/images/hiking_app/design-system/2.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '100%' : '600px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '58%' : '600px'"
         />
       </div>
       <div class="text-body-1 mx-auto mw720">
@@ -450,20 +458,20 @@
       <div class="text-body-1 mx-auto mw720">
         Additionally I made whole application using 8pt grid.
       </div>
-      <div class="d-flex justify-space-between justify-md-center">
+      <div class="d-flex justify-space-around justify-sm-center mt-6 mb-6">
         <v-img
-          class="mt-6 mb-6 mr-md-10"
+          class="mt-6 mb-6 mr-sm-10"
           :src="require('~/assets/images/hiking_app/8pxgrid/1.png')"
           :lazy-src="require('~/assets/images/hiking_app/8pxgrid/1.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '45%' : '258px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '45%' : '250px'"
         />
         <v-img
           class="mt-6 mb-6"
           :src="require('~/assets/images/hiking_app/8pxgrid/2.png')"
           :lazy-src="require('~/assets/images/hiking_app/8pxgrid/2.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '45%' : '258px'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '45%' : '250px'"
         />
       </div>
       <div class="text-body-1 mx-auto mw720">
@@ -642,7 +650,7 @@
       <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-8 mt-md-16">
         <div>
           <div class="text-h4 mt-12 mb-4 font-weight-bold">
-            Add new route
+            Routes
           </div>
           <div class="text-body-1">
             With a few simple steps, the user can save his route in account.
@@ -678,7 +686,7 @@
         </video>
         <div>
           <div class="text-h4 mt-12 mb-4 font-weight-bold">
-            Show mountain crowns on the map
+            Mountain Crowns
           </div>
           <div class="text-body-1">
             User can see information about several Mountain Crowns at the same time.
@@ -775,7 +783,12 @@ export default {
     & .text-h4,
     & .text-body-1 {
       max-width: 340px;
+
+      @media #{map-get($display-breakpoints, 'xs-only')} {
+        max-width: initial;
+      }
     }
+
   }
 
   .cs-project-scope {
