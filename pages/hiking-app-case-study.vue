@@ -639,7 +639,7 @@
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
         5. Final designs
       </div>
-      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-16">
+      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-8 mt-md-16">
         <div>
           <div class="text-h4 mt-12 mb-4 font-weight-bold">
             Add new route
@@ -649,6 +649,7 @@
           </div>
         </div>
         <video
+          class="mt-8 mt-md-0"
           :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
           :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
           autoplay
@@ -661,8 +662,9 @@
           Your browser does not support the video tag.
         </video>
       </div>
-      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-16">
+      <div class="text-and-image d-flex align-center justify-space-between flex-column-reverse flex-sm-row mx-auto mw720 mt-8 mt-md-16">
         <video
+          class="mt-8 mt-md-0"
           :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
           :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
           autoplay
@@ -683,7 +685,7 @@
           </div>
         </div>
       </div>
-      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-16">
+      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-8 mt-md-16">
         <div>
           <div class="text-h4 mt-12 mb-4 font-weight-bold">
             Long-distance trails
@@ -693,6 +695,7 @@
           </div>
         </div>
         <video
+          class="mt-8 mt-md-0"
           :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
           :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
           autoplay
