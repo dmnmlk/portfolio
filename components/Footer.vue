@@ -17,6 +17,7 @@
           >
             <v-icon
               :size="$vuetify.breakpoint.smAndDown ? '48px' : '32px'"
+              color="primary"
             >
               mdi-linkedin
             </v-icon>
@@ -29,6 +30,7 @@
           >
             <v-icon
               :size="$vuetify.breakpoint.smAndDown ? '48px' : '32px'"
+              color="primary"
             >
               mdi-github
             </v-icon>
@@ -41,6 +43,7 @@
           >
             <v-icon
               :size="$vuetify.breakpoint.smAndDown ? '48px' : '32px'"
+              color="primary"
             >
               mdi-email
             </v-icon>
@@ -48,7 +51,7 @@
         </a>
       </v-card-text>
       <v-card-text>
-        <div>Damian Malek © {{ new Date().getFullYear() }}</div>
+        <div>Designed & coded by Damian Malek © {{ new Date().getFullYear() }}</div>
       </v-card-text>
     </v-card>
   </v-footer>

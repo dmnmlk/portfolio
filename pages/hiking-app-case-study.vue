@@ -6,8 +6,8 @@
           Hiking mApp case study
         </div>
         <v-img
-          :src="require('~/assets/images/homepage/hiking_app.png')"
-          :lazy-src="require('~/assets/images/homepage/hiking_app.png')"
+          :src="require('~/assets/images/hiking_app/hiking_app.png')"
+          :lazy-src="require('~/assets/images/hiking_app/hiking_app.png')"
           contain
           :max-width="$vuetify.breakpoint.xsOnly ? '150px' : '291px'"
         />

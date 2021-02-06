@@ -2,7 +2,9 @@
   <v-container>
     <div class="d-flex flex-column justify-space-around align-center">
       <div class="d-flex justify-space-between align-center" style="width: 100%;">
-        <div class="mw720 mt-16 mb-16">
+        <div
+          class="mw720 hero-text"
+        >
           <div class="text-h1 mb-8">
             <div v-if="$vuetify.breakpoint.smAndUp">
               Hi, I'm Damian Malek
@@ -17,7 +19,31 @@
             </div>
           </div>
           <div class="text-h4">
-            UX Designer with full stack developer background. I have over 1.5 year of commercial experience as product designer.
+            Product Designer with front-end development background. I have over 1.5 year of commercial experience in UX roles.
+          </div>
+          <div class="text-body-1 d-flex align-center mt-6">
+            <v-icon
+              class="mr-2"
+              size="24px"
+              color="primary"
+            >
+              mdi-map-marker
+            </v-icon>
+            <div>
+              Based in <a href="https://goo.gl/maps/jjWivrC4usAJopNC7" target="_blank" rel="noopener noreferrer">Rzeszow</a>, Poland
+            </div>
+          </div>
+          <div class="text-body-1 d-flex align-center mt-2">
+            <v-icon
+              class="mr-2"
+              size="24px"
+              color="primary"
+            >
+              mdi-briefcase
+            </v-icon>
+            <div>
+              Currently working at <a href="https://www.ideoagency.com" target="_blank" rel="noopener noreferrer">Ideo</a>
+            </div>
           </div>
         </div>
       </div>
@@ -102,6 +128,16 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+  @import '~vuetify/src/styles/styles.sass';
+
+  .hero-text {
+    margin: 200px 0;
+
+    @media #{map-get($display-breakpoints, 'sm-and-down')} {
+      margin: 100px 0;
+    }
+  }
+
   .cs-text {
     max-width: 488px; // for 40px between text and image
   }
