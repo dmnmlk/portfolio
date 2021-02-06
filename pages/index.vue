@@ -36,7 +36,7 @@
             :src="require('~/assets/images/homepage/hiking_app_rec.png')"
             :lazy-src="require('~/assets/images/homepage/hiking_app_rec.png')"
             contain
-            :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
+            :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
           />
           <div>
             <v-card-title class="text-h3 font-weight-bold">
@@ -47,19 +47,52 @@
                 Case Study / Concept project
               </div>
               Map based application that allows you to create hiking routes and collect information about your badges.
-              <!-- <div class="mt-6">
+              <div class="mt-6">
                 <v-chip label>
                   UX/UI Designer
                 </v-chip>
                 <v-chip label>
                   UX Researcher
                 </v-chip>
-              </div> -->
+              </div>
             </v-card-text>
           </div>
         </v-card>
       </v-hover>
     </NuxtLink>
+    <v-hover
+      v-slot="{ hover }"
+    >
+      <v-card
+        tile
+        :elevation="hover ? 10 : 4"
+        class="d-flex align-center flex-column flex-md-row-reverse mx-sm-auto mx-md-0 mt-16"
+        :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
+      >
+        <v-img
+          :src="require('~/assets/images/homepage/automotive_app_2.png')"
+          :lazy-src="require('~/assets/images/homepage/automotive_app_2.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
+        />
+        <div>
+          <v-card-title class="text-h3 font-weight-bold">
+            Spare parts for cars
+          </v-card-title>
+          <v-card-text class="text-body-1">
+            <div class="text-overline grey-color mb-6">
+              Case Study / Concept project based on commercial experience
+            </div>
+            E-commerce website that sells spare parts in automotive industry.
+            <div class="mt-6">
+              <v-chip label>
+                UX/UI Designer
+              </v-chip>
+            </div>
+          </v-card-text>
+        </div>
+      </v-card>
+    </v-hover>
   </v-container>
 </template>
 
@@ -72,6 +105,7 @@ export default {
   .cs-text {
     max-width: 488px; // for 40px between text and image
   }
+
   .v-card:hover {
     -moz-transform: translate(0px, -8px);
     -ms-transform: translate(0px, -8px);

@@ -20,14 +20,6 @@
       <div class="details">
         <div class="detail d-flex flex-column flex-md-row justify-space-between mb-4">
           <div class="detail-prop text-body-1 font-weight-bold">
-            Project name:
-          </div>
-          <div class="detail-val text-body-1">
-            Hiking mApp
-          </div>
-        </div>
-        <div class="detail d-flex flex-column flex-md-row justify-space-between mb-4">
-          <div class="detail-prop text-body-1 font-weight-bold">
             Project type:
           </div>
           <div class="detail-val text-body-1">
@@ -139,7 +131,7 @@
         </div>
         <ul>
           <li class="mt-4">
-            Creating app that can be used alone on hiking trips without help from other similiar apps. It should have possibility to create routes, mark point of interests, gather data of different badge types and show statistics on completed routes in the past.
+            Creating app that can be used alone on hiking trips without help from other similar apps. It should have possibility to create routes, mark point of interests, gather data of different badge types and show statistics on completed routes in the past.
           </li>
           <li class="mt-4">
             Designs that includes all application states(success, error, info etc)
@@ -356,7 +348,7 @@
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Exploring ideas on low-fi mockups
       </div>
-      <div class="text-overline green-color font-weight-bold mx-auto mw720 mt-10">
+      <div class="text-overline font-weight-bold mx-auto mw720 mt-10">
         Design challenge #1
       </div>
       <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
@@ -391,7 +383,7 @@
       <div class="text-body-1 mx-auto mw720 mt-6">
         Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
       </div>
-      <div class="text-overline green-color font-weight-bold mx-auto mw720 mt-10">
+      <div class="text-overline font-weight-bold mx-auto mw720 mt-10">
         Design challenge #2
       </div>
       <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
@@ -600,7 +592,7 @@
           The bounce rate was 0% so no task was abadoned
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          The average misclick rate was just 4.2% which means the touchpointa were well designed
+          The average misclick rate was just 4.2% which means the touchpoints were well designed
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
@@ -752,6 +744,9 @@
         What could I improve on my next project
       </div>
       <ul>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          I should designate some space for ads if business model would be free + ads or premium with annual fees.
+        </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
           I should have created a design system much earlier, to iterate quicker between different ideas in low and high fidelity designs.
         </li>

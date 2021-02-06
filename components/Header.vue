@@ -3,20 +3,18 @@
     <div class="top-bar">
       <div class="logo">
         <NuxtLink to="/" class="text-decoration-none text-h2">
-          <div v-if="$vuetify.breakpoint.xsOnly">
+          <!-- <div v-if="$vuetify.breakpoint.xsOnly"> -->
+          <div>
             DM
           </div>
-          <div v-else>
+          <!-- <div v-else>
             Damian Malek
-          </div>
+          </div> -->
         </NuxtLink>
       </div>
       <div class="top-menu">
-        <!-- <NuxtLink to="/" class="text-decoration-none menu-item text-body-1">
-          Case Studies
-        </NuxtLink>
-        <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
-          About
+        <!-- <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
+          About me
         </NuxtLink> -->
       </div>
     </div>
