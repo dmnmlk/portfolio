@@ -33,8 +33,8 @@
           :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
         >
           <v-img
-            :src="require('~/assets/images/homepage/hiking_app_rec.png')"
-            :lazy-src="require('~/assets/images/homepage/hiking_app_rec.png')"
+            :src="require('~/assets/images/homepage/hiking_app.png')"
+            :lazy-src="require('~/assets/images/homepage/hiking_app.png')"
             contain
             :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
           />
@@ -70,8 +70,8 @@
         :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
       >
         <v-img
-          :src="require('~/assets/images/homepage/automotive_app_2.png')"
-          :lazy-src="require('~/assets/images/homepage/automotive_app_2.png')"
+          :src="require('~/assets/images/homepage/automotive_app.png')"
+          :lazy-src="require('~/assets/images/homepage/automotive_app.png')"
           contain
           :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
         />
