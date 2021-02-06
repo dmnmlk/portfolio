@@ -6,15 +6,15 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - nuxt-portfolio',
-    title: 'nuxt-portfolio',
+    titleTemplate: '%s - Damian Malek',
+    title: 'Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon-16.png' },
+      { rel: 'icon', type: 'image/ico', href: '/favicon-32.ico' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap' }
     ]
   },
