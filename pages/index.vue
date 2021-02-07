@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="text-h4">
-            Product Designer with front-end development background. I have over 1.5 year of commercial experience in UX roles.
+            Product Designer with front-end development background. Passionate about user-centric approach in everyday work.
           </div>
           <div class="text-body-1 d-flex align-center mt-6">
             <v-icon

@@ -329,15 +329,15 @@
       <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
           class="mt-6"
-          :src="require('~/assets/images/hiking_app/whiteboard/1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/whiteboard/1.png')"
+          :src="require('~/assets/images/hiking_app/whiteboard/1.jpg')"
+          :lazy-src="require('~/assets/images/hiking_app/whiteboard/1.jpg')"
           contain
           :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
         <v-img
           class="mt-6"
-          :src="require('~/assets/images/hiking_app/whiteboard/1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/whiteboard/1.png')"
+          :src="require('~/assets/images/hiking_app/whiteboard/2.jpg')"
+          :lazy-src="require('~/assets/images/hiking_app/whiteboard/2.jpg')"
           contain
           :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
