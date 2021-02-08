@@ -13,9 +13,9 @@
         </NuxtLink>
       </div>
       <div class="top-menu">
-        <!-- <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
+        <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
           About me
-        </NuxtLink> -->
+        </NuxtLink>
       </div>
     </div>
   </v-container>

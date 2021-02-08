@@ -19,30 +19,30 @@
             </div>
           </div>
           <div class="text-h4">
-            Product Designer with front-end development background. Passionate about user-centric approach in everyday work.
+            Product Designer with coding background. Passionate about user-centric approach in everyday work.
           </div>
           <div class="text-body-1 d-flex align-center mt-6">
-            <v-icon
+            <!-- <v-icon
               class="mr-2"
               size="24px"
               color="primary"
             >
               mdi-map-marker
-            </v-icon>
+            </v-icon> -->
             <div>
-              Based in <a href="https://goo.gl/maps/jjWivrC4usAJopNC7" target="_blank" rel="noopener noreferrer">Rzeszow</a>, Poland
+              📌 Based in <a href="https://goo.gl/maps/jjWivrC4usAJopNC7" target="_blank" rel="noopener noreferrer">Rzeszow</a>, Poland
             </div>
           </div>
           <div class="text-body-1 d-flex align-center mt-2">
-            <v-icon
+            <!-- <v-icon
               class="mr-2"
               size="24px"
               color="primary"
             >
               mdi-briefcase
-            </v-icon>
+            </v-icon> -->
             <div>
-              Currently working at <a href="https://www.ideoagency.com" target="_blank" rel="noopener noreferrer">Ideo</a>
+              💻 Currently working at <a href="https://www.ideoagency.com" target="_blank" rel="noopener noreferrer">Ideo</a>
             </div>
           </div>
         </div>
