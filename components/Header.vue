@@ -43,7 +43,6 @@ export default {
       }
       this.showNavbar = currentScrollPosition < this.lastScrollPosition
       this.lastScrollPosition = currentScrollPosition
-      console.log(currentScrollPosition)
     }
   }
 }

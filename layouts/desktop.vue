@@ -5,6 +5,7 @@
       <Nuxt />
     </v-main>
     <Footer />
+    <BackToTop />
   </v-app>
 </template>
 
