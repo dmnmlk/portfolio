@@ -31,14 +31,35 @@
       <div class="text-h4 font-weight-bold mb-4 mt-16">
         Personal life
       </div>
-      <div class="text-body-1">
-        In my free time I hike with my fiancée in ⛰️ Polish mountains. A well-known saying in Poland is "How about giving up everything and going to Bieszczady Mountains" and I'm lucky since I have both! I 🏊 swim whenever possible.
+      <div class="d-flex justify-space-between align-center align-sm-start flex-column flex-sm-row">
+        <div class="personal-life text-body-1">
+          In my free time I hike with my fiancée in ⛰️ Polish mountains. A well-known saying in Poland is "How about giving up everything and going to Bieszczady Mountains" and I'm lucky since I have both! I 🏊 swim whenever possible.
+          <div
+            v-if="$vuetify.breakpoint.xsOnly"
+            class="mt-6"
+          >
+            That's me! ⬇️
+          </div>
+          <div
+            v-else
+            class="mt-6"
+          >
+            That's me! ➡️
+          </div>
+        </div>
+        <v-img
+          class="mt-4 mt-sm-0"
+          :src="require('~/assets/images/about_me/photo.jpg')"
+          :lazy-src="require('~/assets/images/about_me/photo.jpg')"
+          contain
+          :max-width="$vuetify.breakpoint.xsOnly ? '75%' : '45%'"
+        />
       </div>
       <div class="text-body-1 mt-16 mb-4">
         Thanks for visiting my website!
       </div>
       <div class="text-body-1">
-        Want to get in touch? Feel free to contact me via mail or linkedin :)
+        Want to get in touch? Feel free to contact me via mail or linkedin
       </div>
     </div>
   </v-container>
@@ -49,8 +70,17 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '~vuetify/src/styles/styles.sass';
 .hero-text {
   margin-top: 200px;
+}
+
+.personal-life {
+  max-width: 45%;
+
+  @media #{map-get($display-breakpoints, 'xs-only')} {
+    max-width: 100%;
+  }
 }
 </style>
