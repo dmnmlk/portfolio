@@ -136,7 +136,7 @@ $headings: (
 }
 
 .above-the-fold {
-  height: calc(100vh - 57px); //57px ma desktop header
+  height: calc(100vh - 56px); //56px ma desktop header
   max-height: 1000px;
 
   @media #{map-get($display-breakpoints, 'sm-and-down')} {
