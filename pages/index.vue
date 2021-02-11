@@ -61,7 +61,7 @@
               Map based application that allows you to create hiking routes and collect information about your badges.
               <div class="mt-6">
                 <v-chip label>
-                  UX/UI Designer
+                  Product Designer
                 </v-chip>
                 <v-chip label>
                   UX Researcher
@@ -89,16 +89,19 @@
         />
         <div>
           <v-card-title class="text-h3 font-weight-bold">
-            Spare parts for cars
+            Redesign of e-commerce website
           </v-card-title>
           <v-card-text class="text-body-1">
             <div class="text-overline grey-color mb-6">
-              Case Study / Concept project based on commercial experience
+              Case Study / Commercial project with NDA restrictions
             </div>
-            E-commerce website that sells spare parts in automotive industry.
+            E-commerce website that is connected with automotive industry.
             <div class="mt-6">
               <v-chip label>
-                UX/UI Designer
+                UX Designer
+              </v-chip>
+              <v-chip label>
+                UX Researcher
               </v-chip>
             </div>
           </v-card-text>
