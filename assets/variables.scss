@@ -90,13 +90,25 @@ $headings: (
     'letter-spacing': .07rem,
     'font-family': $button-font-family,
     'text-transform': uppercase
-  )
+  ),
+  'bignumber': (
+    'size': 2.25rem,
+    'weight': 700,
+    'line-height': 2.25rem,
+    'letter-spacing': normal,
+    'font-family': $heading-font-family,
+    'text-transform': false
+  ),
 );
 
 //my styles
 
 .mw720 {
   max-width: 720px;
+}
+
+.mw508 {
+  max-width: 508px;
 }
 
 .container {

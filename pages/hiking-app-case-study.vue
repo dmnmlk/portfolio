@@ -100,28 +100,43 @@
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Challenges
         </div>
-        <div class="mb-8">
-          <div class="text-body-1 font-weight-bold">
-            How might we use maps to display relevant data?
+        <div class="d-flex">
+          <div class="text-bignumber mr-8 d-none d-md-block">
+            #1
           </div>
-          <div class="text-body-1">
-            Currently, it's possible to create user maps in Google Maps but they have significant downsides such as no marked hiking trails on the map.
-          </div>
-        </div>
-        <div class="mb-8">
-          <div class="text-body-1 font-weight-bold">
-            How might we create application for people to store information about collected badges from hiking?
-          </div>
-          <div class="text-body-1">
-            Right now, people collecting hiking badges must browse internet for specifical information. Most often these informations are stored in outdate pages that are not intuitive at all and are unusable on mobile devices.
+          <div class="mb-8">
+            <div class="text-body-1 font-weight-bold">
+              How might we use maps to display relevant data?
+            </div>
+            <div class="text-body-1">
+              Currently, it's possible to create user maps in Google Maps but they have significant downsides such as no marked hiking trails on the map.
+            </div>
           </div>
         </div>
-        <div class="mb-8">
-          <div class="text-body-1 font-weight-bold">
-            How might we encourage users to fill in information about their acquired badges?
+        <div class="d-flex">
+          <div class="text-bignumber mr-8 d-none d-md-block">
+            #2
           </div>
-          <div class="text-body-1">
-            Ease of use and intuitive design should lead to convenient filling of their badge information. This should be based on gamification principles which are inseparable from the application.
+          <div class="mb-8">
+            <div class="text-body-1 font-weight-bold">
+              How might we create application for people to store information about collected badges from hiking?
+            </div>
+            <div class="text-body-1">
+              Right now, people collecting hiking badges must browse internet for specifical information. Most often these informations are stored in outdate pages that are not intuitive at all and are unusable on mobile devices.
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="text-bignumber mr-8 d-none d-md-block">
+            #3
+          </div>
+          <div class="mb-8">
+            <div class="text-body-1 font-weight-bold">
+              How might we encourage users to fill in information about their acquired badges?
+            </div>
+            <div class="text-body-1">
+              Ease of use and intuitive design should lead to convenient filling of their badge information. This should be based on gamification principles which are inseparable from the application.
+            </div>
           </div>
         </div>
       </div>
@@ -129,17 +144,30 @@
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Goals
         </div>
-        <ul>
-          <li class="mt-4">
+        <div class="d-flex">
+          <div class="text-bignumber mr-8 d-none d-md-block">
+            #1
+          </div>
+          <div class="mb-8 text-body-1">
             Creating app that can be used alone on hiking trips without help from other similar apps. It should have possibility to create routes, mark point of interests, gather data of different badge types and show statistics on completed routes in the past.
-          </li>
-          <li class="mt-4">
-            Designs that includes all application states(success, error, info etc)
-          </li>
-          <li class="mt-4">
-            Fully working prototype that will be used for usability tests and could be handed over to developers.
-          </li>
-        </ul>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="text-bignumber mr-8 d-none d-md-block">
+            #2
+          </div>
+          <div class="mb-8 text-body-1">
+            Badge module that would give sense of achievement after filling it. Informations about collected badges could land on user's social media.
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="text-bignumber mr-8 d-none d-md-block">
+            #3
+          </div>
+          <div class="mb-8 text-body-1">
+            Fully working prototype that will be used for usability tests. Designs that includes all application states(success, error, information). All of that could be handed over to developers.
+          </div>
+        </div>
       </div>
       <div>
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
@@ -147,27 +175,39 @@
         </div>
         <ol>
           <li class="mt-4">
-            Initial idea & context
+            <a href="#section-1">
+              Initial idea & context
+            </a>
           </li>
           <li class="mt-4">
-            Discover & define
+            <a href="#section-2">
+              Discover & define
+            </a>
           </li>
           <li class="mt-4">
-            Design
+            <a href="#section-3">
+              Design
+            </a>
           </li>
           <li class="mt-4">
-            Test
+            <a href="#section-4">
+              Test
+            </a>
           </li>
           <li class="mt-4">
-            Final designs
+            <a href="#section-5">
+              Final designs
+            </a>
           </li>
           <li class="mt-4">
-            Conslusion & final thoughts
+            <a href="#section-6">
+              Conslusion & final thoughts
+            </a>
           </li>
         </ol>
       </div>
     </div>
-    <div>
+    <div id="section-1">
       <div class="font-weight-bold text-h3 mt-16 mb-8 mx-auto mw720">
         1. Initial idea & context
       </div>
@@ -206,7 +246,7 @@
         Those kind of websited provide information about the regulations, summit list, and other important information during earning badges. After a few days visiting websited of this type, I was starting to wonder if there was any application that was collecting all this information in one place. It turned out that I couldn't find such an application, so I took up the challenge of trying to design an application that would help users to find information about badges in one place.
       </div>
     </div>
-    <div>
+    <div id="section-2">
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
         2. Discover & define
       </div>
@@ -316,7 +356,7 @@
         contain
       />
     </div>
-    <div>
+    <div id="section-3">
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
         3. Design
       </div>
@@ -560,7 +600,7 @@
         />
       </div>
     </div>
-    <div>
+    <div id="section-4">
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
         4. Test
       </div>
@@ -634,7 +674,7 @@
         </li>
       </ul>
     </div>
-    <div>
+    <div id="section-5">
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
         5. Final designs
       </div>
@@ -708,7 +748,7 @@
         </video>
       </div>
     </div>
-    <div>
+    <div id="section-6">
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
         6. Conclusions & final thoughts
       </div>
