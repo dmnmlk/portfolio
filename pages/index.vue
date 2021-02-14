@@ -51,12 +51,12 @@
             :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
           />
           <div>
-            <v-card-title class="text-h3 font-weight-bold">
-              Hiking mApp
-            </v-card-title>
             <v-card-text class="text-body-1">
-              <div class="text-overline grey-color mb-6">
+              <div class="text-overline grey-color">
                 Case Study / Concept project
+              </div>
+              <div class="text-h2 font-weight-bold mt-3 mb-3">
+                Hiking mApp
               </div>
               Map based application that allows you to create hiking routes and collect information about your badges.
               <div class="mt-6">
@@ -88,12 +88,12 @@
           :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
         />
         <div>
-          <v-card-title class="text-h3 font-weight-bold">
-            Redesign of e-commerce website
-          </v-card-title>
           <v-card-text class="text-body-1">
-            <div class="text-overline grey-color mb-6">
+            <div class="text-overline grey-color">
               Case Study / Commercial project with NDA restrictions
+            </div>
+            <div class="text-h2 font-weight-bold mt-3 mb-3">
+              Redesign of e-commerce website
             </div>
             E-commerce website that is connected with automotive industry.
             <div class="mt-6">
