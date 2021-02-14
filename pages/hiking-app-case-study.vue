@@ -568,7 +568,7 @@
         Unmoderated usability tests
       </div>
       <div class="text-body-1 mx-auto mw720">
-        I conduceted 15 unmoderated usability tests with users who had experience with using this type of application. I ran the tests using the Maze tool (https://maze.design). The tests consisted of 4 tasks:
+        I conducted 15 unmoderated usability tests with users who had experience with using this type of application. I ran the tests using the Maze tool (https://maze.design). The tests consisted of 4 tasks:
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
@@ -805,7 +805,7 @@ export default {
 
   // fixing problem with vuetify tabs
   .survey-item {
-    background-color:#EEECE8;
+    // background-color:#EEECE8;
     height: 371px;
     @media (max-width: 700px) {
       height: 350px;

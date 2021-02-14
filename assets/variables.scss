@@ -5,13 +5,13 @@
 @import '~vuetify/src/styles/settings/variables.scss';
 
 //override
-$heading-font-family: 'Playfair Display', serif;
-$body-font-family: 'Montserrat', sans-serif;
+$heading-font-family: 'Lora', 'Playfair Display', serif;
+$body-font-family: 'Poppins', sans-serif;
 $button-font-family: 'Roboto', sans-serif;
 $font-size-root: 16px;
 
 $material-light: (
-  'background': #EEECE8
+  // 'background': #EEECE8
 );
 
 .v-application ul,

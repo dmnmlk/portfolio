@@ -5,7 +5,7 @@
         <div
           class="mw720 hero-text"
         >
-          <div class="text-h1 mb-8">
+          <div class="text-h1 mb-4 font-weight-bold">
             <div v-if="$vuetify.breakpoint.smAndUp">
               Hi, I'm Damian Malek
             </div>
@@ -40,7 +40,7 @@
       >
         <v-card
           tile
-          :elevation="hover ? 10 : 4"
+          :elevation="hover ? 16 : 8"
           class="d-flex align-center flex-column flex-md-row mx-sm-auto mx-md-0"
           :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
         >
@@ -77,7 +77,7 @@
     >
       <v-card
         tile
-        :elevation="hover ? 10 : 4"
+        :elevation="hover ? 16 : 8"
         class="d-flex align-center flex-column flex-md-row-reverse mx-sm-auto mx-md-0 mt-16"
         :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
       >

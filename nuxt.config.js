@@ -15,7 +15,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/ico', href: '/favicon-32.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600;700&family=Lora:wght@300;400;600;700&display=swap' }
     ]
   },
 
@@ -64,7 +64,7 @@ export default {
         light: {
           primary: '#303633', // black
           accent: '#3BBA6C', // green
-          secondary: '#EEECE8', // white
+          secondary: '#ffffff', // white
         }
       }
     }
