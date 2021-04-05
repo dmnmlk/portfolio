@@ -52,6 +52,9 @@ export default {
 
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    defaultAssets: {
+      icons: 'fa'
+    },
     treeShake: true,
     // treeShake: {
     //   loaderOptions: {

@@ -16,23 +16,23 @@
             icon
           >
             <v-icon
-              :size="$vuetify.breakpoint.smAndDown ? '48px' : '32px'"
+              :size="$vuetify.breakpoint.smAndDown ? '40px' : '32px'"
               color="primary"
             >
-              mdi-linkedin
+              fab fa-linkedin-in
             </v-icon>
           </v-btn>
         </a>
-        <a href="https://github.com/dmnmlk" class="text-decoration-none">
+        <a href="https://damianmalek.medium.com" class="text-decoration-none">
           <v-btn
             class="mx-4"
             icon
           >
             <v-icon
-              :size="$vuetify.breakpoint.smAndDown ? '48px' : '32px'"
+              :size="$vuetify.breakpoint.smAndDown ? '40px' : '32px'"
               color="primary"
             >
-              mdi-github
+              fab fa-medium-m
             </v-icon>
           </v-btn>
         </a>
@@ -42,10 +42,10 @@
             icon
           >
             <v-icon
-              :size="$vuetify.breakpoint.smAndDown ? '48px' : '32px'"
+              :size="$vuetify.breakpoint.smAndDown ? '40px' : '32px'"
               color="primary"
             >
-              mdi-email
+              far fa-envelope
             </v-icon>
           </v-btn>
         </a>
