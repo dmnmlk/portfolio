@@ -16,7 +16,7 @@
         <v-icon
           color="primary"
         >
-          mdi-chevron-up
+          fas fa-chevron-up
         </v-icon>
       </v-btn>
     </v-fab-transition>
