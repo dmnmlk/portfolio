@@ -3,11 +3,11 @@
     <div class="above-the-fold  d-flex flex-column justify-space-around align-center">
       <div class="text-and-image d-flex align-center justify-space-between flex-column-reverse flex-sm-row">
         <div class="text-h1 mt-10 mt-md-0">
-          Hiking mApp case study
+          Grocery Store case study
         </div>
         <v-img
-          :src="require('~/assets/images/hiking_app/hiking_app.png')"
-          :lazy-src="require('~/assets/images/hiking_app/hiking_app.png')"
+          :src="require('~/assets/images/grocery_store/grocery_store.png')"
+          :lazy-src="require('~/assets/images/grocery_store/grocery_store.png')"
           contain
           :max-width="$vuetify.breakpoint.xsOnly ? '150px' : '291px'"
         />
@@ -31,7 +31,7 @@
             Timeline:
           </div>
           <div class="detail-val text-body-1">
-            4 weeks
+            2 weeks
           </div>
         </div>
         <div class="detail d-flex flex-column flex-md-row justify-space-between mb-4">
@@ -50,10 +50,7 @@
             <ul>
               <li>
                 Figma
-              </li>
-              <li>
-                Maze
-              </li>
+              </li>>
               <li>
                 Google Forms
               </li>
@@ -67,22 +64,16 @@
           <div class="detail-val text-body-1">
             <ul>
               <li>
-                Survey results
+                Research findings (survey, personas, user stories, problem statements, storyboards, pain points)
               </li>
               <li>
-                Personas
+                Wireframes
               </li>
               <li>
-                Competitor analysis
+                High fidelity designs
               </li>
               <li>
-                Low & high fi designs
-              </li>
-              <li>
-                Prototypes
-              </li>
-              <li>
-                Usability test resports with insights
+                Insights from usability studies
               </li>
             </ul>
           </div>
@@ -93,80 +84,23 @@
           Overview
         </div>
         <div class="text-body-1">
-          Hiking mApp is an application for people who loves to hike outdoor. You can create new routes to find information about trail distance, estimated time etc. However, this application is different from competition because it introduces "Goals & Achievements" panel in user menu which is targeted for users that are collecting badges. Badges are rewards eg. for reaching all the peaks in given mountain region. All this information can be added to user profile so it can be collected over the years to give sense of achievement. App is encouraging people to hike more often and be more healthy!
+          Grocery Store is a responsive website that allows customers to deliver groceries to their doorsteps. The website also allows for a click & collect mechanism where a customer is placing an order on the website and is driving for the groceries to the pickup point. Additionally, the website provides a grocery list option so that customers can save their most frequently bought products so they have them in one place to purchase again.
         </div>
       </div>
       <div>
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
-          Challenges
+          The problem
         </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
-            #1
-          </div>
-          <div class="mb-8">
-            <div class="text-body-1 font-weight-bold">
-              How might we use maps to display relevant data?
-            </div>
-            <div class="text-body-1">
-              Currently, it's possible to create user maps in Google Maps but they have significant downsides such as no marked hiking trails on the map.
-            </div>
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
-            #2
-          </div>
-          <div class="mb-8">
-            <div class="text-body-1 font-weight-bold">
-              How might we create application for people to store information about collected badges from hiking?
-            </div>
-            <div class="text-body-1">
-              Right now, people collecting hiking badges must browse internet for specifical information. Most often these informations are stored in outdate pages that are not intuitive at all and are unusable on mobile devices.
-            </div>
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
-            #3
-          </div>
-          <div class="mb-8">
-            <div class="text-body-1 font-weight-bold">
-              How might we encourage users to fill in information about their acquired badges?
-            </div>
-            <div class="text-body-1">
-              Ease of use and intuitive design should lead to convenient filling of their badge information. This should be based on gamification principles which are inseparable from the application.
-            </div>
-          </div>
+        <div class="text-body-1">
+          People that do grocery shopping increasingly are willing to buy groceries online to their houses or through click & collect. The availability of such solutions on the market is still low so this concept project is addressed to solve this problem.
         </div>
       </div>
       <div>
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
-          Goals
+          The goal
         </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
-            #1
-          </div>
-          <div class="mb-8 text-body-1">
-            Creating app that can be used alone on hiking trips without help from other similar apps. It should have possibility to create routes, mark point of interests, gather data of different badge types and show statistics on completed routes in the past.
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
-            #2
-          </div>
-          <div class="mb-8 text-body-1">
-            Badge module that would give sense of achievement after filling it. Informations about collected badges could land on user's social media.
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
-            #3
-          </div>
-          <div class="mb-8 text-body-1">
-            Fully working prototype that will be used for usability tests. Designs that includes all application states(success, error, information). All of that could be handed over to developers.
-          </div>
+        <div class="text-body-1">
+          The main goal is to design a responsive website where it will be possible to place an order for groceries to deliver them to home or in form of click & collect.
         </div>
       </div>
       <div>
@@ -176,31 +110,21 @@
         <ol>
           <li class="mt-4">
             <a href="#section-1">
-              Initial idea & context
+              Empathize & define
             </a>
           </li>
           <li class="mt-4">
             <a href="#section-2">
-              Discover & define
+              Ideate
             </a>
           </li>
           <li class="mt-4">
             <a href="#section-3">
-              Design
+              Prototype & Test
             </a>
           </li>
           <li class="mt-4">
             <a href="#section-4">
-              Test
-            </a>
-          </li>
-          <li class="mt-4">
-            <a href="#section-5">
-              Final designs
-            </a>
-          </li>
-          <li class="mt-4">
-            <a href="#section-6">
               Conclusions & final thoughts
             </a>
           </li>
@@ -209,52 +133,13 @@
     </div>
     <div id="section-1">
       <div class="font-weight-bold text-h3 mt-16 mb-8 mx-auto mw720">
-        1. Initial idea & context
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        During the summer holidays in 2020, I started hiking regularly in the Polish mountains. I discovered the possibility of collecting badges as achievements eg. after conquering all peeks in given mountain region. I started looking for information about badges, how they work and what is needed to earn them. I saw dozens of sites that weren't adapted to mobile phones and looked like this:
-      </div>
-      <div class="d-flex justify-space-around justify-lg-space-between mt-6 mb-6">
-        <v-img
-          :src="require('~/assets/images/hiking_app/browser/browser_1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/browser/browser_1.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '45%' : '250px'"
-        />
-        <v-img
-          :src="require('~/assets/images/hiking_app/browser/browser_2.png')"
-          :lazy-src="require('~/assets/images/hiking_app/browser/browser_2.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '45%' : '250px'"
-        />
-        <v-img
-          class="d-none d-md-block"
-          :src="require('~/assets/images/hiking_app/browser/browser_3.png')"
-          :lazy-src="require('~/assets/images/hiking_app/browser/browser_3.png')"
-          contain
-          max-width="250px"
-        />
-        <v-img
-          class="d-none d-lg-block"
-          :src="require('~/assets/images/hiking_app/browser/browser_4.png')"
-          :lazy-src="require('~/assets/images/hiking_app/browser/browser_4.png')"
-          contain
-          max-width="250px"
-        />
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        Those kind of websited provide information about the regulations, summit list, and other important information during earning badges. After a few days visiting websited of this type, I was starting to wonder if there was any application that was collecting all this information in one place. It turned out that I couldn't find such an application, so I took up the challenge of trying to design an application that would help users to find information about badges in one place.
-      </div>
-    </div>
-    <div id="section-2">
-      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
-        2. Discover & define
+        1. Empathize & define
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Survey
       </div>
       <div class="text-body-1 mx-auto mw720">
-        Conducting the survey was the first step in understanding how many people might be interested in this app. <strong>261 people</strong> participated in the survey, It contained 10 single and multiple choice questions. Additionally, in some questions, users had the option of adding their own answer.
+        The first thing that was made to better understand how many people can benefit from this type of product was surveys. 140 people participated in the survey, it contained 9 questions.
       </div>
       <v-tabs
         class="mx-auto mw720 mt-6"
@@ -275,8 +160,8 @@
             class="survey-item"
           >
             <v-img
-              :src="require('~/assets/images/hiking_app/survey/1.png')"
-              :lazy-src="require('~/assets/images/hiking_app/survey/1.png')"
+              :src="require('~/assets/images/grocery_store/survey/1.png')"
+              :lazy-src="require('~/assets/images/grocery_store/survey/1.png')"
               contain
               width="100%"
               height="auto"
@@ -288,8 +173,8 @@
             class="survey-item"
           >
             <v-img
-              :src="require('~/assets/images/hiking_app/survey/2.png')"
-              :lazy-src="require('~/assets/images/hiking_app/survey/2.png')"
+              :src="require('~/assets/images/grocery_store/survey/2.png')"
+              :lazy-src="require('~/assets/images/grocery_store/survey/2.png')"
               contain
               width="100%"
               height="auto"
@@ -301,8 +186,8 @@
             class="survey-item"
           >
             <v-img
-              :src="require('~/assets/images/hiking_app/survey/3.png')"
-              :lazy-src="require('~/assets/images/hiking_app/survey/3.png')"
+              :src="require('~/assets/images/grocery_store/survey/3.png')"
+              :lazy-src="require('~/assets/images/grocery_store/survey/3.png')"
               contain
               width="100%"
               height="auto"
@@ -315,458 +200,207 @@
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-sm-4">
-          Almost one out of four people (22,6%) out there hiking in Polish mountains are collecting badges. This means that there is a <strong>potential for market share</strong> in this app segment.
+          Almost half of the people who participated in the survey are getting to the grocery store by car. It shows that there's potential that they
         </li>
         <li class="text-body-1 mx-auto mw720 mt-sm-4">
-          There is a lot missing things in current apps available on market right now.
+          2 out of 3 people participated in survey does grocery shopping every other day
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          over 63 percent of participants would try click & collect if it would be available in their region.
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        Personas
+        Personas & user stories
       </div>
       <div class="text-body-1 mx-auto mw720">
-        Personas was based on surveys. They have been categorized upon whether someone collects badges or not. Personas was helpful later when I was designing app to remind myself who will ultimately use the app.
+        Personas were categorized based on data from the survey. There was a trend that someone that is doing grocery shopping every other day is doing it by going to the grocery shop by foot. On the contrary, people that are doing groceries every week or even every two weeks are using cars to get to the grocery store. Both personas could have different expectations from a website but both of them would benefit from using it.
       </div>
       <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
           class="mt-6"
-          :src="require('~/assets/images/hiking_app/personas/1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/personas/1.png')"
+          :src="require('~/assets/images/grocery_store/personas/1.png')"
+          :lazy-src="require('~/assets/images/grocery_store/personas/1.png')"
           contain
           :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
         <v-img
           class="mt-6"
-          :src="require('~/assets/images/hiking_app/personas/2.png')"
-          :lazy-src="require('~/assets/images/hiking_app/personas/2.png')"
+          :src="require('~/assets/images/grocery_store/personas/2.png')"
+          :lazy-src="require('~/assets/images/grocery_store/personas/2.png')"
           contain
           :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
       </div>
+      <div class="text-body-1 mx-auto mw720 mt-sm-12">
+        Additionally, user stories was made to better understand future customers:
+      </div>
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          As someone who often does grocery shopping, I want to buy grocery from home, so that I can save a lot of time
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          As someone who often does grocery shopping, I want to get information about grocery promotions on my phone, so that I can follow all promotions that are currently run.
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          As someone who rarely does grocery shopping, I want to select an exact date when I will be picking up products so that I can organize my day better.
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          As someone who rarely does grocery shopping, I want to have my grocery list inside an online grocery shop, so that I don't have to use other apps just for the grocery lists.
+        </li>
+      </ul>
+    </div>
+    <div id="section-2">
+      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
+        2. Ideate
+      </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        Information Architecture
+        Paper sketches
       </div>
       <div class="text-body-1 mx-auto mw720">
-        IA was based on surverys and competitor analysis. Modules such as "Badges", "Mountain Crowns" or "Long-distance trails" will be defined later.
+        After determining what the customer types are, paper wireframes were made to quickly iterate between ideas and find solutions that could work for a website.
       </div>
       <v-img
         class="mt-6"
-        :src="require('~/assets/images/hiking_app/ia/ia.png')"
-        :lazy-src="require('~/assets/images/hiking_app/ia/ia.png')"
+        :src="require('~/assets/images/grocery_store/paper_sketches/1.jpg')"
+        :lazy-src="require('~/assets/images/grocery_store/paper_sketches/1.jpg')"
         contain
       />
-    </div>
-    <div id="section-3">
-      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
-        3. Design
-      </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        Whiteboarding
+        Design challenges
       </div>
       <div class="text-body-1 mx-auto mw720">
-        After the discovery / research phase, I started sketching the first views on the whiteboard. It quickly turned out that for some views I have more questions that answers.
+        While iterating on paper sketches I encounter several challenges that I needed to address to move to the next step:
+      </div>
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          how should website behave when customer won't pickup his groceries?
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-sm-4">
+          what is the best way to inform a customer that his order is ready to be picked up?
+        </li>
+      </ul>
+      <div class="text-body-1 mx-auto mw720 mt-sm-8">
+        Those questions were answered by doing crazy 8s. This caused that I have several solutions to choose from and test in an incoming usability study with real users.
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Wireframes
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        This step was all about transforming paper sketches to Figma. It enables more possibilities to prototype and view this product for the first time in mobile to better understand if it's going in the right direction.
       </div>
       <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
           class="mt-6"
-          :src="require('~/assets/images/hiking_app/whiteboard/1.jpg')"
-          :lazy-src="require('~/assets/images/hiking_app/whiteboard/1.jpg')"
+          :src="require('~/assets/images/grocery_store/wireframes/1m.png')"
+          :lazy-src="require('~/assets/images/grocery_store/wireframes/1m.png')"
+          contain
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+        />
+        <v-img
+          class="mt-6"
+          :src="require('~/assets/images/grocery_store/wireframes/2m.png')"
+          :lazy-src="require('~/assets/images/grocery_store/wireframes/2m.png')"
+          contain
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+        />
+        <v-img
+          class="mt-6"
+          :src="require('~/assets/images/grocery_store/wireframes/3m.png')"
+          :lazy-src="require('~/assets/images/grocery_store/wireframes/3m.png')"
+          contain
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+        />
+      </div>
+      <div class="text-body-1 mx-auto mw720 my-6">
+        After deciding what the application should look like, a desktop version was created.
+      </div>
+      <div class="d-flex justify-space-between flex-column flex-sm-row">
+        <v-img
+          class="mt-6"
+          :src="require('~/assets/images/grocery_store/wireframes/1d.png')"
+          :lazy-src="require('~/assets/images/grocery_store/wireframes/1d.png')"
           contain
           :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
         <v-img
           class="mt-6"
-          :src="require('~/assets/images/hiking_app/whiteboard/2.jpg')"
-          :lazy-src="require('~/assets/images/hiking_app/whiteboard/2.jpg')"
+          :src="require('~/assets/images/grocery_store/wireframes/2d.png')"
+          :lazy-src="require('~/assets/images/grocery_store/wireframes/2d.png')"
           contain
           :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
         />
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-6">
-        Selected design challenges that I encountered during initial sketches are explored in next chapter.
-      </div>
-      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        Exploring ideas on low-fi wireframes
-      </div>
-      <div class="text-overline font-weight-bold mx-auto mw720 mt-10">
-        Design challenge #1
-      </div>
-      <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
-        How to show list of badges?
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        I had few ideas on how to create a badge list so that user immediately knew what was going on and what to expect.
-      </div>
-      <div class="d-flex justify-space-between flex-column flex-sm-row">
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_1.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_2.png')"
-          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_2.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_3.png')"
-          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_1_concept_3.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-6">
-        Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
-      </div>
-      <div class="text-overline font-weight-bold mx-auto mw720 mt-10">
-        Design challenge #2
-      </div>
-      <div class="text-body-1 font-weight-bold mx-auto mw720 mb-2">
-        How to distinguish POIs on the map at the same time?
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        POI (Point of interest) - is a point in space that may be useful or worth attention. In my application, these are mainly mountain peaks and observation towers.
-      </div>
-      <div class="d-flex justify-space-between align-center flex-column flex-sm-row">
-        <v-img
-          class="mt-6 mb-md-6"
-          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_1.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '33%' : '333px'"
-        />
-        <v-img
-          class="mt-6 mb-6 d-none d-sm-block"
-          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2.png')"
-          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly ? '63%' : '666px'"
-        />
-        <v-img
-          class="mt-6 mb-6 d-block d-sm-none"
-          :src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2_mobile.png')"
-          :lazy-src="require('~/assets/images/hiking_app/exploring-ideas/idea_2_concept_2_mobile.png')"
-          contain
-          max-width="100%"
-        />
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        As the clickable area of the map should be as large as possible, I decided to use the map legend from the second version. When it comes to the presentation of several POIs in one place, I chose the version from the second idea for design transparency. However, I left the idea of grouping pins for future testing because at this stage it was hard to say what would be better.
-      </div>
-      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        Design system
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        The design system (like the design) was created in Figma.I used variants to make it easier to work with multiple versions of one components.
-      </div>
-      <div class="d-flex justify-space-between align-center flex-column flex-sm-row">
-        <v-img
-          class="mt-6 mb-md-6"
-          :src="require('~/assets/images/hiking_app/design-system/1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/design-system/1.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '38%' : '400px'"
-        />
-        <v-img
-          class="mt-6 mb-6"
-          :src="require('~/assets/images/hiking_app/design-system/2.png')"
-          :lazy-src="require('~/assets/images/hiking_app/design-system/2.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '58%' : '600px'"
-        />
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        The design system itself significantly accelerated my work as a source of truth.
-      </div>
-      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        8px grid
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        Additionally I made whole application using 8pt grid.
-      </div>
-      <div class="d-flex justify-space-around justify-sm-center mt-6 mb-6">
-        <v-img
-          class="mt-6 mb-6 mr-sm-10"
-          :src="require('~/assets/images/hiking_app/8pxgrid/1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/8pxgrid/1.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '45%' : '250px'"
-        />
-        <v-img
-          class="mt-6 mb-6"
-          :src="require('~/assets/images/hiking_app/8pxgrid/2.png')"
-          :lazy-src="require('~/assets/images/hiking_app/8pxgrid/2.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '45%' : '250px'"
-        />
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        It made my design more consistent across different views.
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         High fidelity designs
       </div>
-      <div class="d-flex justify-space-between">
+      <div class="text-body-1 mx-auto mw720">
+        High fidelity designs were made to enable the possibility of add real products to start writing scenarios that usability study participants would have to work on.
+      </div>
+      <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
-          class="mt-6 mb-6"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/1.png')"
+          class="mt-6"
+          :src="require('~/assets/images/grocery_store/mockups/1m.png')"
+          :lazy-src="require('~/assets/images/grocery_store/mockups/1m.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
         />
         <v-img
-          class="mt-6 mb-6"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/2.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/2.png')"
+          class="mt-6"
+          :src="require('~/assets/images/grocery_store/mockups/2m.png')"
+          :lazy-src="require('~/assets/images/grocery_store/mockups/2m.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
         />
         <v-img
-          class="mt-6 mb-6"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/3.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/3.png')"
+          class="mt-6"
+          :src="require('~/assets/images/grocery_store/mockups/3m.png')"
+          :lazy-src="require('~/assets/images/grocery_store/mockups/3m.png')"
           contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
-        <v-img
-          class="mt-6 mb-6 d-none d-md-block"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/4.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/4.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
-        <v-img
-          class="mt-6 mb-6 d-none d-md-block"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/5.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/5.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
-        <v-img
-          class="mt-6 mb-6 d-none d-md-block"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/6.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/6.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
         />
       </div>
-      <div class="d-flex justify-space-between">
-        <v-img
-          class="mt-6 mb-6"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/7.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/7.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
-        <v-img
-          class="mt-6 mb-6"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/8.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/8.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
-        <v-img
-          class="mt-6 mb-6"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/9.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/9.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
-        <v-img
-          class="mt-6 mb-6 d-none d-md-block"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/10.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/10.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
-        <v-img
-          class="mt-6 mb-6 d-none d-md-block"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/11.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/11.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
-        <v-img
-          class="mt-6 mb-6 d-none d-md-block"
-          :src="require('~/assets/images/hiking_app/high-fi-designs/12.png')"
-          :lazy-src="require('~/assets/images/hiking_app/high-fi-designs/12.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smAndDown ? '30%' : '14%'"
-        />
+    </div>
+    <div id="section-3">
+      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
+        3. Prototype & test
+      </div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
+        Usability studies
+      </div>
+      <div class="text-body-1 mx-auto mw720">
+        I conducted unmoderated usability studies with several people. After few rounds, I had a lot of great material to synthesize and turn them into insights. The test consisted of 4 tasks:
+      </div>
+      <ul>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          place an order for groceries
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          find the QR code that you will beed to pick up groceries
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          add to shopping list selected products
+        </li>
+        <li class="text-body-1 mx-auto mw720 mt-4">
+          add products directly to the cart from the promotional newsletter
+        </li>
+      </ul>
+      <div class="text-body-1 mx-auto mw720">
+        On the next iteration on product most prioritized problems were addressed first.
       </div>
     </div>
     <div id="section-4">
       <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
-        4. Test
-      </div>
-      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        Unmoderated usability tests
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        I conducted 15 unmoderated usability tests with users who had experience with using this type of application. I ran the tests using the Maze tool (https://maze.design). The tests consisted of 4 tasks:
-      </div>
-      <ul>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          Add a route
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          Add a Long-distance trail
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          Add two Mountain Crowns
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          Show all points for two different Mountain Crowns on the map
-        </li>
-      </ul>
-      <div class="text-body-1 mx-auto mw720 mt-10">
-        Selected results and insights:
-      </div>
-      <ul>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          The bounce rate was 0% so no task was abadoned
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          The average misclick rate was just 4.2% which means the touchpoints were well designed
-        </li>
-      </ul>
-      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        Moderated usability tests
-      </div>
-      <v-img
-        class="mt-6"
-        :src="require('~/assets/images/hiking_app/test/1.jpg')"
-        :lazy-src="require('~/assets/images/hiking_app/test/1.jpg')"
-        max-height="550px"
-      />
-      <div class="text-body-1 mx-auto mw720 mt-10">
-        Additionally, I conducted 5 moderated usability tests with similar tasks so that I could see the user's reactions to the application in the real time.
-      </div>
-      <div class="text-body-1 mx-auto mw720">
-        User quotes:
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-4 quote">
-        “l It's not for me since I don’t collect badges, but maybe one day I will start”
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-4 quote">
-        “So you can add several points on one map? Interesting”
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-4 quote">
-        “l It's really easy to add new goals and everything is intuitive”
-      </div>
-      <div class="text-body-1 mx-auto mw720 mt-10">
-        After analizysing usability tests I found few pain points that was immediately fixed:
-      </div>
-      <ul>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          No proposed results in search
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          Lack of restictions when selecting badge tiers
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          Lack of "show all summits on map" button in summit list view
-        </li>
-      </ul>
-    </div>
-    <div id="section-5">
-      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
-        5. Final designs
-      </div>
-      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-8 mt-md-16">
-        <div>
-          <div class="text-h4 mt-12 mb-4 font-weight-bold">
-            Routes
-          </div>
-          <div class="text-body-1">
-            With a few simple steps, the user can save his route in account.
-          </div>
-        </div>
-        <video
-          class="mt-8 mt-md-0"
-          :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
-          :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
-          autoplay
-          loop
-          muted
-          playsinline
-        >
-          <source src="~/assets/images/hiking_app/mp4/1.webm" type="video/webm">
-          <source src="~/assets/images/hiking_app/mp4/1.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-      <div class="text-and-image d-flex align-center justify-space-between flex-column-reverse flex-sm-row mx-auto mw720 mt-8 mt-md-16">
-        <video
-          class="mt-8 mt-md-0"
-          :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
-          :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
-          autoplay
-          loop
-          muted
-          playsinline
-        >
-          <source src="~/assets/images/hiking_app/mp4/2.webm" type="video/webm">
-          <source src="~/assets/images/hiking_app/mp4/2.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        <div>
-          <div class="text-h4 mt-12 mb-4 font-weight-bold">
-            Mountain Crowns
-          </div>
-          <div class="text-body-1">
-            User can see information about several Mountain Crowns at the same time.
-          </div>
-        </div>
-      </div>
-      <div class="text-and-image d-flex align-center justify-space-between flex-column flex-sm-row mx-auto mw720 mt-8 mt-md-16">
-        <div>
-          <div class="text-h4 mt-12 mb-4 font-weight-bold">
-            Long-distance trails
-          </div>
-          <div class="text-body-1">
-            User can add trail that can later use for trip planning.
-          </div>
-        </div>
-        <video
-          class="mt-8 mt-md-0"
-          :width="$vuetify.breakpoint.smAndDown ? '194px' : '291px'"
-          :height="$vuetify.breakpoint.smAndDown ? '412px' : '618px'"
-          autoplay
-          loop
-          muted
-          playsinline
-        >
-          <source src="~/assets/images/hiking_app/mp4/3.webm" type="video/webm">
-          <source src="~/assets/images/hiking_app/mp4/3.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </div>
-    </div>
-    <div id="section-6">
-      <div class="text-h3 font-weight-bold mt-16 mb-8 mx-auto mw720">
-        6. Conclusions & final thoughts
+        4. Conclusions & final thoughts
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Ideas for future designs & tests
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Possibility to filter badges, Mountain Crowns and long-distance trails after organizer
+          buying without registration and how it affects grocery lists
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Ability to inform user about intersting places along the route he's actually in
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          Possibility of dividing the long-distance trails into shorter routes. It might be useful for someone who is planning to begin the route and want divide one long-distance trail into few days.
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          Inform people that it is possible to collect badges (e.g. while user is setting his route)
+          thoughtful tablet design
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
@@ -774,10 +408,10 @@
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Gamification was big part in this for sure, I was able to understand what drive people to fill their trip information in app.
+          making mobile-first responsive web design made it possible for me to focus on the most important elements first.
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Idea from scratch allowed me to fully understand design process from different perspectives.
+          understanding what obstacles can come while designing for grocery industry
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
@@ -785,13 +419,10 @@
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          I should designate some space for ads if business model would be free + ads or premium with annual fees.
+          better understand my biases towards given topic, while conducting usability study
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          I should have created a design system much earlier, to iterate quicker between different ideas in low and high fidelity designs.
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
-          I should pay more attention while creating questions for the survey, in later design stages it would be useful to know about e.g. phone that respondents use (android or ios)
+          high fidelity designs need more polishing in regards of shadows and colour harmony.
         </li>
       </ul>
     </div>

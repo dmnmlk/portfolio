@@ -72,7 +72,45 @@
         </v-card>
       </v-hover>
     </NuxtLink>
-    <v-hover
+    <NuxtLink to="/grocery-store-case-study" class="text-decoration-none menu-item text-body-1">
+      <v-hover
+        v-slot="{ hover }"
+      >
+        <v-card
+          tile
+          :elevation="hover ? 16 : 8"
+          class="d-flex align-center flex-column flex-md-row-reverse mx-sm-auto mx-md-0 mt-16"
+          :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
+        >
+          <v-img
+            :src="require('~/assets/images/homepage/grocery_store.png')"
+            :lazy-src="require('~/assets/images/homepage/grocery_store.png')"
+            contain
+            :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
+          />
+          <div>
+            <v-card-text class="text-body-1">
+              <div class="text-overline grey-color">
+                Case Study / Concept project
+              </div>
+              <div class="text-h2 font-weight-bold mt-3 mb-3">
+                Grocery Store
+              </div>
+              Responsive website that allows customers to order groceries to their doorsteps or as click & collect mechanism.
+              <div class="mt-6">
+                <v-chip label>
+                  Product Designer
+                </v-chip>
+                <v-chip label>
+                  UX Researcher
+                </v-chip>
+              </div>
+            </v-card-text>
+          </div>
+        </v-card>
+      </v-hover>
+    </NuxtLink>
+    <!-- <v-hover
       v-slot="{ hover }"
     >
       <v-card
@@ -107,7 +145,7 @@
           </v-card-text>
         </div>
       </v-card>
-    </v-hover>
+    </v-hover> -->
   </v-container>
 </template>
 
