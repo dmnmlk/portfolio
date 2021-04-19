@@ -12,9 +12,7 @@
           DM
         </NuxtLink>
         <div>
-          <NuxtLink to="/cv.pdf" class="text-decoration-none menu-item text-body-1">
-            Resume
-          </NuxtLink>
+          <a href="/cv.pdf" target="_blank" class="text-decoration-none menu-item text-body-1">Resume</a>
           <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
             About me
           </NuxtLink>
