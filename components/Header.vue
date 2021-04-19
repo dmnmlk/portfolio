@@ -11,9 +11,14 @@
         <NuxtLink to="/" class="text-decoration-none text-h2">
           DM
         </NuxtLink>
-        <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
-          About me
-        </NuxtLink>
+        <div>
+          <NuxtLink to="/cv.pdf" class="text-decoration-none menu-item text-body-1">
+            Resume
+          </NuxtLink>
+          <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
+            About me
+          </NuxtLink>
+        </div>
       </div>
     </v-card>
   </v-container>

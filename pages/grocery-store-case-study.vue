@@ -50,9 +50,12 @@
             <ul>
               <li>
                 Figma
-              </li>>
+              </li>
               <li>
                 Google Forms
+              </li>
+              <li>
+                Notion
               </li>
             </ul>
           </div>
@@ -84,7 +87,7 @@
           Overview
         </div>
         <div class="text-body-1">
-          Grocery Store is a responsive website that allows customers to deliver groceries to their doorsteps. The website also allows for a click & collect mechanism where a customer is placing an order on the website and is driving for the groceries to the pickup point. Additionally, the website provides a grocery list option so that customers can save their most frequently bought products so they have them in one place to purchase again.
+          <strong>Grocery Store</strong> is a responsive website that allows customers to deliver groceries to their doorsteps. The website also allows for a click & collect mechanism where a customer is placing an order on the website and is driving for the groceries to the pickup point. Additionally, the website provides a grocery list option so that customers can save their most frequently bought products so they have them in one place to purchase again.
         </div>
       </div>
       <div>
@@ -365,7 +368,7 @@
         3. Prototype & test
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        Usability studies
+        Usability study
       </div>
       <div class="text-body-1 mx-auto mw720">
         I conducted unmoderated usability studies with several people. After few rounds, I had a lot of great material to synthesize and turn them into insights. The test consisted of 4 tasks:
@@ -415,7 +418,7 @@
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        What could I improve on my next project
+        What I could improve upon my next project
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">

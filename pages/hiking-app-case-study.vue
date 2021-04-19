@@ -57,6 +57,9 @@
               <li>
                 Google Forms
               </li>
+              <li>
+                Notion
+              </li>
             </ul>
           </div>
         </div>
@@ -93,7 +96,7 @@
           Overview
         </div>
         <div class="text-body-1">
-          Hiking mApp is an application for people who loves to hike outdoor. You can create new routes to find information about trail distance, estimated time etc. However, this application is different from competition because it introduces "Goals & Achievements" panel in user menu which is targeted for users that are collecting badges. Badges are rewards eg. for reaching all the peaks in given mountain region. All this information can be added to user profile so it can be collected over the years to give sense of achievement. App is encouraging people to hike more often and be more healthy!
+          <strong>Hiking mApp</strong> is an application for people who loves to hike outdoor. You can create new routes to find information about trail distance, estimated time etc. However, this application is different from competition because it introduces "Goals & Achievements" panel in user menu which is targeted for users that are collecting badges. Badges are rewards eg. for reaching all the peaks in given mountain region. All this information can be added to user profile so it can be collected over the years to give sense of achievement. App is encouraging people to hike more often and be more healthy!
         </div>
       </div>
       <div>
@@ -781,7 +784,7 @@
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        What could I improve on my next project
+        What I could improve upon my next project
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">

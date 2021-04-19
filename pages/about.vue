@@ -33,7 +33,7 @@
       </div>
       <div class="d-flex justify-space-between align-center align-sm-start flex-column flex-sm-row">
         <div class="personal-life text-body-1">
-          In my free time I hike with my fiancée in ⛰️ Polish mountains. A well-known saying in Poland is "How about giving up everything and going to Bieszczady Mountains" and I'm lucky since I have both! I 🏊 swim whenever possible.
+          In my free time I hike with my fiancée in ⛰️ Polish mountains. A well-known saying in Poland is "How about giving up everything and going to Bieszczady Mountains" and I'm lucky since I have both!
           <div
             v-if="$vuetify.breakpoint.xsOnly"
             class="mt-6"
