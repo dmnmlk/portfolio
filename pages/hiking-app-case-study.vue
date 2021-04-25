@@ -327,24 +327,33 @@
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Personas
       </div>
-      <div class="text-body-1 mx-auto mw720">
+      <div class="text-body-1 mx-auto mw720 mb-6">
         Personas was based on surveys. They have been categorized upon whether someone collects badges or not. Personas was helpful later when I was designing app to remind myself who will ultimately use the app.
       </div>
       <div class="d-flex justify-space-between flex-column flex-sm-row">
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/hiking_app/personas/1.png')"
-          :lazy-src="require('~/assets/images/hiking_app/personas/1.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
-        />
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/hiking_app/personas/2.png')"
-          :lazy-src="require('~/assets/images/hiking_app/personas/2.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
-        />
+        <v-card
+          tile
+          elevation="8"
+        >
+          <v-img
+            class="mt-6"
+            :src="require('~/assets/images/hiking_app/personas/1.png')"
+            :lazy-src="require('~/assets/images/hiking_app/personas/1.png')"
+            contain
+            :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
+          />
+        </v-card>
+        <v-card
+          elevation="8"
+        >
+          <v-img
+            class="mt-6"
+            :src="require('~/assets/images/hiking_app/personas/2.png')"
+            :lazy-src="require('~/assets/images/hiking_app/personas/2.png')"
+            contain
+            :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '45%' : '508px'"
+          />
+        </v-card>
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Information Architecture
@@ -487,11 +496,23 @@
         The design system itself significantly accelerated my work as a source of truth.
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        8px grid
+        Accesibility & 8px grid
       </div>
       <div class="text-body-1 mx-auto mw720">
-        Additionally I made whole application using 8pt grid.
+        App was made with accesibility in mind, every contrast ratio was thoughtfully checked to ensure great redability. Additionally I made whole application using 8pt grid.
       </div>
+      <!-- <v-card
+        tile
+        elevation="8"
+      > -->
+        <v-img
+          class="mt-6 mb-6 mx-auto"
+          :src="require('~/assets/images/hiking_app/8pxgrid/3.png')"
+          :lazy-src="require('~/assets/images/hiking_app/8pxgrid/3.png')"
+          contain
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : '296px'"
+        />
+      <!-- </v-card> -->
       <div class="d-flex justify-space-around justify-sm-center mt-6 mb-6">
         <v-img
           class="mt-6 mb-6 mr-sm-10"
@@ -611,7 +632,7 @@
         Unmoderated usability tests
       </div>
       <div class="text-body-1 mx-auto mw720">
-        I conducted 15 unmoderated usability tests with users who had experience with using this type of application. I ran the tests using the Maze tool (https://maze.design). The tests consisted of 4 tasks:
+        I conducted 11 unmoderated usability tests with users who had experience with using this type of application. The tests consisted of 4 tasks:
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
@@ -627,6 +648,20 @@
           Show all points for two different Mountain Crowns on the map
         </li>
       </ul>
+      <div class="text-body-1 mx-auto mw720 mt-6">
+        I ran the tests using Maze tool. Screenshot below is from reports panel with insights from fourth task.
+      </div>
+      <v-card
+        tile
+        elevation="8"
+      >
+        <v-img
+          class="mt-6"
+          :src="require('~/assets/images/hiking_app/test/1.png')"
+          :lazy-src="require('~/assets/images/hiking_app/test/1.png')"
+          max-height="550px"
+        />
+      </v-card>
       <div class="text-body-1 mx-auto mw720 mt-10">
         Selected results and insights:
       </div>
@@ -641,12 +676,17 @@
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Moderated usability tests
       </div>
-      <v-img
-        class="mt-6"
-        :src="require('~/assets/images/hiking_app/test/1.jpg')"
-        :lazy-src="require('~/assets/images/hiking_app/test/1.jpg')"
-        max-height="550px"
-      />
+      <v-card
+        tile
+        elevation="8"
+      >
+        <v-img
+          class="mt-6"
+          :src="require('~/assets/images/hiking_app/test/2.jpg')"
+          :lazy-src="require('~/assets/images/hiking_app/test/2.jpg')"
+          max-height="550px"
+        />
+      </v-card>
       <div class="text-body-1 mx-auto mw720 mt-10">
         Additionally, I conducted 5 moderated usability tests with similar tasks so that I could see the user's reactions to the application in the real time.
       </div>

@@ -90,7 +90,8 @@
           Overview
         </div>
         <div class="text-body-1">
-          <strong>PetRescue</strong> is an application to report lost & found pets. It acts as the main source of information on this subject for owners who have lost their pets and for animal shelters who have rescued pets and want to find owners.        </div>
+          <strong>PetRescue</strong> is an application to report lost & found pets. It acts as the main source of information on this subject for owners who have lost their pets and for animal shelters who have rescued pets and want to find owners.
+        </div>
       </div>
       <div>
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
