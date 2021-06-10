@@ -23,7 +23,7 @@
           </div>
           <div class="text-body-1 d-flex align-center mt-6">
             <div>
-              📌 Based in <a href="https://goo.gl/maps/jjWivrC4usAJopNC7" target="_blank" rel="noopener noreferrer">Rzeszow</a>, Poland
+              📌 Based in Rzeszow, Poland
             </div>
           </div>
           <div class="text-body-1 d-flex align-center mt-2">

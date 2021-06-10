@@ -5,8 +5,63 @@
         About me
       </div>
       <div class="text-body-1">
-        I'm Damian Malek, a UX designer with front-end development background. With over 1.5 year of experience in UX field I was involved in several projects from different industries - from e-commerce website selling spare parts for cars to b2b website for furniture retailer. Prior to design roles, I was working as front-end and occasionally back-end developer for nearly 4 years. In 2018 I graduated from Rzeszow University of Technology with master degree in computer engineering.
+        I'm Damian Malek, product designer with front-end development background. With over 2 years of experience in UX field I was involved in several projects from different industries - from e-commerce website selling spare parts for cars to b2b website for furniture retailer. Prior to design roles, I was working as front-end and occasionally back-end developer for nearly 4 years.
       </div>
+      <div class="text-h4 font-weight-bold mb-4 mt-8">
+        Timeline
+      </div>
+      <v-timeline>
+        <v-timeline-item>
+          <v-row class="pt-1">
+            <v-col
+              cols="2"
+              align-self="center"
+            >
+              <strong>2016</strong>
+            </v-col>
+            <v-col
+              cols="10"
+            >
+              Started my professional career as software developer
+            </v-col>
+          </v-row>
+        </v-timeline-item>
+        <v-timeline-item>
+          <v-row class="pt-1">
+            <v-col
+              cols="10"
+            >
+              Graduated from Rzeszow University of Technology with master degree in computer engineering
+            </v-col>
+            <v-col
+              cols="2"
+              align-self="center"
+            >
+              <strong>2018</strong>
+            </v-col>
+          </v-row>
+        </v-timeline-item>
+        <v-timeline-item>
+          <v-row class="pt-1">
+            <v-col
+              cols="2"
+              align-self="center"
+            >
+              <strong>2021</strong>
+            </v-col>
+            <v-col
+              cols="10"
+            >
+              <div>
+                Started teaching product design at University of Information Technology and Management in Rzeszów
+              </div>
+              <div class="mt-4">
+                Earned <a href="https://www.credly.com/badges/eb88efda-64f2-4bf7-be08-415f66df2401" target="_blank" rel="noopener noreferrer">Google UX Design Certificate</a>
+              </div>
+            </v-col>
+          </v-row>
+        </v-timeline-item>
+      </v-timeline>
       <div class="text-h4 font-weight-bold mb-4 mt-8">
         How it started
       </div>
@@ -33,7 +88,7 @@
       </div>
       <div class="d-flex justify-space-between align-center align-sm-start flex-column flex-sm-row">
         <div class="personal-life text-body-1">
-          In my free time I hike with my fiancée in ⛰️ Polish mountains. A well-known saying in Poland is "How about giving up everything and going to Bieszczady Mountains" and I'm lucky since I have both!
+          I live in Rzeszów. In my free time I like to hike with my fiancée in Polish mountains.
           <div
             v-if="$vuetify.breakpoint.xsOnly"
             class="mt-6"

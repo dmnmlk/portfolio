@@ -501,18 +501,13 @@
       <div class="text-body-1 mx-auto mw720">
         App was made with accesibility in mind, every contrast ratio was thoughtfully checked to ensure great redability. Additionally I made whole application using 8pt grid.
       </div>
-      <!-- <v-card
-        tile
-        elevation="8"
-      > -->
-        <v-img
-          class="mt-6 mb-6 mx-auto"
-          :src="require('~/assets/images/hiking_app/8pxgrid/3.png')"
-          :lazy-src="require('~/assets/images/hiking_app/8pxgrid/3.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : '296px'"
-        />
-      <!-- </v-card> -->
+      <v-img
+        class="mt-6 mb-6 mx-auto"
+        :src="require('~/assets/images/hiking_app/8pxgrid/3.png')"
+        :lazy-src="require('~/assets/images/hiking_app/8pxgrid/3.png')"
+        contain
+        :max-width="$vuetify.breakpoint.xsOnly ? '100%' : '296px'"
+      />
       <div class="d-flex justify-space-around justify-sm-center mt-6 mb-6">
         <v-img
           class="mt-6 mb-6 mr-sm-10"
