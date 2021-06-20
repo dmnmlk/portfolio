@@ -10,56 +10,73 @@
       <div class="text-h4 font-weight-bold mb-4 mt-8">
         Timeline
       </div>
-      <v-timeline>
-        <v-timeline-item>
-          <v-row class="pt-1">
-            <v-col
-              cols="2"
-              align-self="center"
+      <v-timeline
+        :dense="$vuetify.breakpoint.mdAndDown"
+      >
+        <v-timeline-item small>
+          <div
+            class="d-flex align-center"
+          >
+            <div
+              class="mr-8"
             >
               <strong>2016</strong>
-            </v-col>
-            <v-col
-              cols="10"
-            >
+            </div>
+            <div>
               Started my professional career as software developer
-            </v-col>
-          </v-row>
+            </div>
+          </div>
         </v-timeline-item>
-        <v-timeline-item>
-          <v-row class="pt-1">
-            <v-col
-              cols="10"
-            >
-              Graduated from Rzeszow University of Technology with master degree in computer engineering
-            </v-col>
-            <v-col
-              cols="2"
-              align-self="center"
+        <v-timeline-item small>
+          <div
+            class="d-flex align-center"
+            :class="$vuetify.breakpoint.mdAndDown ? 'flex-row' : 'flex-row-reverse'"
+          >
+            <div
+              :class="$vuetify.breakpoint.mdAndDown ? 'mr-8' : 'ml-8'"
             >
               <strong>2018</strong>
-            </v-col>
-          </v-row>
+            </div>
+            <div>
+              Graduated from Rzeszow University of Technology with master degree in computer engineering
+            </div>
+          </div>
         </v-timeline-item>
-        <v-timeline-item>
-          <v-row class="pt-1">
-            <v-col
-              cols="2"
-              align-self="center"
+        <v-timeline-item small>
+          <div
+            class="d-flex align-center"
+          >
+            <div
+              class="mr-8"
+            >
+              <strong>2019</strong>
+            </div>
+            <div>
+              Started my career as UX/Product Designer
+            </div>
+          </div>
+        </v-timeline-item>
+        <v-timeline-item small>
+          <div
+            class="d-flex align-center"
+            :class="$vuetify.breakpoint.mdAndDown ? 'flex-row' : 'flex-row-reverse'"
+          >
+            <div
+              :class="$vuetify.breakpoint.mdAndDown ? 'mr-8' : 'ml-8'"
             >
               <strong>2021</strong>
-            </v-col>
-            <v-col
-              cols="10"
-            >
-              <div>
-                Started teaching product design at University of Information Technology and Management in Rzeszów
-              </div>
-              <div class="mt-4">
+            </div>
+            <div>
+              <div
+                :class="$vuetify.breakpoint.mdAndDown ? 'mt-4' : ''"
+              >
                 Earned <a href="https://www.credly.com/badges/eb88efda-64f2-4bf7-be08-415f66df2401" target="_blank" rel="noopener noreferrer">Google UX Design Certificate</a>
               </div>
-            </v-col>
-          </v-row>
+              <div class="mt-4">
+                Started teaching product design at University of Information Technology and Management in Rzeszów
+              </div>
+            </div>
+          </div>
         </v-timeline-item>
       </v-timeline>
       <div class="text-h4 font-weight-bold mb-4 mt-8">

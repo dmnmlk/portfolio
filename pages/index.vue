@@ -21,16 +21,6 @@
           <div class="text-h4">
             Product Designer with coding background. Passionate about user-centric approach in everyday work.
           </div>
-          <div class="text-body-1 d-flex align-center mt-6">
-            <div>
-              📌 Based in Rzeszow, Poland
-            </div>
-          </div>
-          <div class="text-body-1 d-flex align-center mt-2">
-            <div>
-              💻 Currently working at <a href="https://www.ideoagency.com" target="_blank" rel="noopener noreferrer">Ideo</a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
