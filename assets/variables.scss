@@ -127,6 +127,18 @@ $headings: (
   color: #3BBA6C;
 }
 
+.hikingapp-color:hover {
+  background: -webkit-linear-gradient(234.11deg, #FFCB48 14.19%, #FBC02D 49.45%, #F0B217 84.17%, #FABA1A 84.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.swimlane-color:hover {
+  background: -webkit-linear-gradient(55.22deg, #15229F 0%, #091794 0.01%, #15229F 52.6%, #2634B9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .quote {
   border-left: 2px solid #303633;
   padding: 8px 0 8px 24px;

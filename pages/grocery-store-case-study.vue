@@ -433,7 +433,10 @@
 </template>
 <script>
 export default {
-  layout: ctx => ctx.isTablet ? 'tablet' : (ctx.isDesktop ? 'desktop' : 'default')
+  layout: ctx => ctx.isTablet ? 'tablet' : (ctx.isDesktop ? 'desktop' : 'default'),
+  head: {
+    title: 'Grocery Store case study'
+  }
 }
 </script>
 

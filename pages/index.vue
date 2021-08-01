@@ -106,7 +106,7 @@
         </v-card>
       </v-hover>
     </NuxtLink>
-    <NuxtLink to="/grocery-store-case-study" class="text-decoration-none menu-item text-body-1">
+    <!-- <NuxtLink to="/grocery-store-case-study" class="text-decoration-none menu-item text-body-1">
       <v-hover
         v-slot="{ hover }"
       >
@@ -187,43 +187,7 @@
           </div>
         </v-card>
       </v-hover>
-    </NuxtLink>
-    <!-- <v-hover
-      v-slot="{ hover }"
-    >
-      <v-card
-        tile
-        :elevation="hover ? 16 : 8"
-        class="d-flex align-center flex-column flex-md-row-reverse mx-sm-auto mx-md-0 mt-16"
-        :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
-      >
-        <v-img
-          :src="require('~/assets/images/homepage/automotive_app.png')"
-          :lazy-src="require('~/assets/images/homepage/automotive_app.png')"
-          contain
-          :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
-        />
-        <div>
-          <v-card-text class="text-body-1">
-            <div class="text-overline grey-color">
-              Case Study / Commercial project with NDA restrictions
-            </div>
-            <div class="text-h2 font-weight-bold mt-3 mb-3">
-              Redesign of e-commerce website
-            </div>
-            E-commerce website that is connected with automotive industry.
-            <div class="mt-6">
-              <v-chip label>
-                UX Designer
-              </v-chip>
-              <v-chip label>
-                UX Researcher
-              </v-chip>
-            </div>
-          </v-card-text>
-        </div>
-      </v-card>
-    </v-hover> -->
+    </NuxtLink> -->
   </v-container>
 </template>
 

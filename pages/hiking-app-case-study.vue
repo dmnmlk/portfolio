@@ -833,11 +833,26 @@
         </li>
       </ul>
     </div>
+    <div>
+      <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720 d-flex flex-column">
+        <div class="mb-4">
+          Next case study
+        </div>
+        <div>
+          <NuxtLink to="/swimlane-case-study" class="swimlane-color text-decoration-none text-h3">
+            Swimlane >
+          </NuxtLink>
+        </div>
+      </div>
+    </div>
   </v-container>
 </template>
 <script>
 export default {
-  layout: ctx => ctx.isTablet ? 'tablet' : (ctx.isDesktop ? 'desktop' : 'default')
+  layout: ctx => ctx.isTablet ? 'tablet' : (ctx.isDesktop ? 'desktop' : 'default'),
+  head: {
+    title: 'Hiking app case study'
+  }
 }
 </script>
 
