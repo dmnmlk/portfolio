@@ -96,7 +96,7 @@
           Overview
         </div>
         <div class="text-body-1">
-          <strong>Hiking mApp</strong> is an application for people who loves to hike outdoor. You can create new routes to find information about trail distance, estimated time etc. However, this application is different from competition because it introduces "Goals & Achievements" panel in user menu which is targeted for users that are collecting badges. Badges are rewards eg. for reaching all the peaks in given mountain region. All this information can be added to user profile so it can be collected over the years to give sense of achievement. App is encouraging people to hike more often and be more healthy!
+          <strong>Hiking mApp</strong> is an application for people who loves to hike outdoor. You can create new routes to find information about trail distance, estimated time, etc. However, this application is different from the competition because it introduces the "Goals & Achievements" panel in the user menu which is targeted at users that are collecting badges. Badges are rewards eg. for reaching all the peaks in given mountain region. All this information can be added to the user profile so it can be collected over the years to give a sense of achievement. The app is encouraging people to hike more often and be more healthy!
         </div>
       </div>
       <div>
@@ -122,10 +122,10 @@
           </div>
           <div class="mb-8">
             <div class="text-body-1 font-weight-bold">
-              How might we create application for people to store information about collected badges from hiking?
+              How might we create an application for people to store information about collected badges from hiking?
             </div>
             <div class="text-body-1">
-              Right now, people collecting hiking badges must browse internet for specifical information. Most often these informations are stored in outdate pages that are not intuitive at all and are unusable on mobile devices.
+              Right now, people collecting hiking badges must browse the internet for specifical information. Most often that kind of information are stored in outdated pages that are not intuitive at all and are unusable on mobile devices.
             </div>
           </div>
         </div>
@@ -152,7 +152,7 @@
             #1
           </div>
           <div class="mb-8 text-body-1">
-            Creating app that can be used alone on hiking trips without help from other similar apps. It should have possibility to create routes, mark point of interests, gather data of different badge types and show statistics on completed routes in the past.
+            Creating an app that can be used alone on hiking trips without help from other similar apps. It should have the possibility to create routes, mark the point of interest, gather data of different badge types, and show statistics on completed routes in the past.
           </div>
         </div>
         <div class="d-flex">
@@ -160,7 +160,7 @@
             #2
           </div>
           <div class="mb-8 text-body-1">
-            Badge module that would give sense of achievement after filling it. Informations about collected badges could land on user's social media.
+            Badge module that would give a sense of achievement after filling it. Information about collected badges could land on user's social media.
           </div>
         </div>
         <div class="d-flex">
@@ -168,7 +168,7 @@
             #3
           </div>
           <div class="mb-8 text-body-1">
-            Fully working prototype that will be used for usability tests. Designs that includes all application states(success, error, information). All of that could be handed over to developers.
+            Fully working prototype that will be used for usability tests. Designs that include all application states(success, error, information). All of that could be handed over to developers.
           </div>
         </div>
       </div>
@@ -246,7 +246,7 @@
         />
       </div>
       <div class="text-body-1 mx-auto mw720">
-        Those kind of websited provide information about the regulations, summit list, and other important information during earning badges. After a few days visiting websited of this type, I was starting to wonder if there was any application that was collecting all this information in one place. It turned out that I couldn't find such an application, so I took up the challenge of trying to design an application that would help users to find information about badges in one place.
+        Those kinds of websites provide information about the regulations, summit lists, and other important information during earning badges. After a few days of visiting websites of this type, I was starting to wonder if there was an application that was collecting all this information in one place. It turned out that I couldn't find such an application, so I took up the challenge of trying to design an application that would help users to find information about badges in one place.
       </div>
     </div>
     <div id="section-2">
@@ -257,7 +257,7 @@
         Survey
       </div>
       <div class="text-body-1 mx-auto mw720">
-        Conducting the survey was the first step in understanding how many people might be interested in this app. <strong>261 people</strong> participated in the survey, It contained 10 single and multiple choice questions. Additionally, in some questions, users had the option of adding their own answer.
+        Conducting the survey was the first step in understanding how many people might be interested in this app. <strong>261 people</strong> participated in the survey, It contained 10 single and multiple-choice questions. Additionally, in some questions, users had the option of adding their answers.
       </div>
       <v-tabs
         class="mx-auto mw720 mt-6"
@@ -318,17 +318,17 @@
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-sm-4">
-          Almost one out of four people (22,6%) out there hiking in Polish mountains are collecting badges. This means that there is a <strong>potential for market share</strong> in this app segment.
+          Almost one out of four people (22,6%) out there hiking in the Polish mountains are collecting badges. This means that there is a <strong>potential for market share</strong> in this app segment.
         </li>
         <li class="text-body-1 mx-auto mw720 mt-sm-4">
-          There is a lot missing things in current apps available on market right now.
+          There is a lot of missing things in current apps available on market right now.
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Personas
       </div>
       <div class="text-body-1 mx-auto mw720 mb-6">
-        Personas was based on surveys. They have been categorized upon whether someone collects badges or not. Personas was helpful later when I was designing app to remind myself who will ultimately use the app.
+        Personas were based on surveys. They have been categorized upon whether someone collects badges or not. Personas were helpful later when I was designing an app to remind myself who will ultimately use the app.
       </div>
       <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-card
@@ -359,7 +359,7 @@
         Information Architecture
       </div>
       <div class="text-body-1 mx-auto mw720">
-        IA was based on surverys and competitor analysis. Modules such as "Badges", "Mountain Crowns" or "Long-distance trails" will be defined later.
+        IA was based on surveys and competitor analysis. Modules such as "Badges", "Mountain Crowns" or "Long-distance trails" will be defined later.
       </div>
       <v-img
         class="mt-6"
@@ -376,7 +376,7 @@
         Whiteboarding
       </div>
       <div class="text-body-1 mx-auto mw720">
-        After the discovery / research phase, I started sketching the first views on the whiteboard. It quickly turned out that for some views I have more questions that answers.
+        After the discovery/research phase, I started sketching the first views on the whiteboard. It quickly turned out that for some views I have more questions than answers.
       </div>
       <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
@@ -395,7 +395,7 @@
         />
       </div>
       <div class="text-body-1 mx-auto mw720 mt-6">
-        Selected design challenges that I encountered during initial sketches are explored in next chapter.
+        Selected design challenges that I encountered during initial sketches are explored in the next chapter.
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Exploring ideas on low-fi wireframes
@@ -407,7 +407,7 @@
         How to show list of badges?
       </div>
       <div class="text-body-1 mx-auto mw720">
-        I had few ideas on how to create a badge list so that user immediately knew what was going on and what to expect.
+        I had few ideas on how to create a badge list so that users immediately knew what was going on and what to expect.
       </div>
       <div class="d-flex justify-space-between flex-column flex-sm-row">
         <v-img
@@ -433,7 +433,7 @@
         />
       </div>
       <div class="text-body-1 mx-auto mw720 mt-6">
-        Badge grouping was idea that conviced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used to, meant that I chose the version on the right for the next stage of design.
+        Badge grouping was an idea that convinced me that I was going in the right direction because I imagine situations where there may be a lot of badges there. In addition, the progress bar, which looks like one to which users are used, meaning that I chose the version on the right for the next stage of design.
       </div>
       <div class="text-overline font-weight-bold mx-auto mw720 mt-10">
         Design challenge #2
@@ -474,7 +474,7 @@
         Design system
       </div>
       <div class="text-body-1 mx-auto mw720">
-        The design system (like the design) was created in Figma.I used variants to make it easier to work with multiple versions of one components.
+        The design system (like the design) was created in Figma. I used variants to make it easier to work with multiple versions of one component.
       </div>
       <div class="d-flex justify-space-between align-center flex-column flex-sm-row">
         <v-img
@@ -499,7 +499,7 @@
         Accesibility & 8px grid
       </div>
       <div class="text-body-1 mx-auto mw720">
-        App was made with accesibility in mind, every contrast ratio was thoughtfully checked to ensure great redability. Additionally I made whole application using 8pt grid.
+        The app was made with accessibility in mind, every contrast ratio was thoughtfully checked to ensure great readability. Additionally, I made the whole application using an 8pt grid.
       </div>
       <v-img
         class="mt-6 mb-6 mx-auto"
@@ -644,7 +644,7 @@
         </li>
       </ul>
       <div class="text-body-1 mx-auto mw720 mt-6">
-        I ran the tests using Maze tool. Screenshot below is from reports panel with insights from fourth task.
+        I ran the tests using the Maze tool. The screenshot below is from the reports panel with insights from the fourth task.
       </div>
       <v-card
         tile
@@ -662,10 +662,10 @@
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          The bounce rate was 0% so no task was abadoned
+          The bounce rate was 0% so no task was abandoned.
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          The average misclick rate was just 4.2% which means the touchpoints were well designed
+          The average misclick rate was just 4.2% which means the touchpoints were well designed.
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
@@ -683,13 +683,13 @@
         />
       </v-card>
       <div class="text-body-1 mx-auto mw720 mt-10">
-        Additionally, I conducted 5 moderated usability tests with similar tasks so that I could see the user's reactions to the application in the real time.
+        Additionally, I conducted 5 moderated usability tests with similar tasks so that I could see the user's reactions to the application in real-time.
       </div>
       <div class="text-body-1 mx-auto mw720">
         User quotes:
       </div>
       <div class="text-body-1 mx-auto mw720 mt-4 quote">
-        “l It's not for me since I don’t collect badges, but maybe one day I will start”
+        “It's not for me since I don’t collect badges, but maybe one day I will start”
       </div>
       <div class="text-body-1 mx-auto mw720 mt-4 quote">
         “So you can add several points on one map? Interesting”
@@ -698,7 +698,7 @@
         “l It's really easy to add new goals and everything is intuitive”
       </div>
       <div class="text-body-1 mx-auto mw720 mt-10">
-        After analizysing usability tests I found few pain points that was immediately fixed:
+        After analysing usability tests I found few pain points that were immediately fixed:
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
@@ -722,7 +722,7 @@
             Routes
           </div>
           <div class="text-body-1">
-            With a few simple steps, the user can save his route in account.
+            With a few simple steps, the user can save his route in the account.
           </div>
         </div>
         <video
@@ -758,7 +758,7 @@
             Mountain Crowns
           </div>
           <div class="text-body-1">
-            User can see information about several Mountain Crowns at the same time.
+            Users can see information about several Mountain Crowns at the same time.
           </div>
         </div>
       </div>
@@ -768,7 +768,7 @@
             Long-distance trails
           </div>
           <div class="text-body-1">
-            User can add trail that can later use for trip planning.
+            Users can add trails that can later use for trip planning.
           </div>
         </div>
         <video
@@ -795,16 +795,16 @@
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Possibility to filter badges, Mountain Crowns and long-distance trails after organizer
+          Possibility to filter badges, Mountain Crowns, and long-distance trails after organizer
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Ability to inform user about intersting places along the route he's actually in
+          Ability to inform the user about interesting places along the route he's actually in
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Possibility of dividing the long-distance trails into shorter routes. It might be useful for someone who is planning to begin the route and want divide one long-distance trail into few days.
+          Possibility of dividing the long-distance trails into shorter routes. It might be useful for someone who is planning to begin the route and want to divide one long-distance trail into few days.
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Inform people that it is possible to collect badges (e.g. while user is setting his route)
+          Inform people that it is possible to collect badges (e.g. while the user is setting his route)
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
@@ -812,21 +812,21 @@
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Gamification was big part in this for sure, I was able to understand what drive people to fill their trip information in app.
+          Gamification was a big part of this for sure, I was able to understand what drives people to fill their trip information in-app.
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          Idea from scratch allowed me to fully understand design process from different perspectives.
+          Idea from scratch allowed me to fully understand the design process from different perspectives.
         </li>
       </ul>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
-        What I could improve upon my next project
+        What I could improve upon in my next project
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          I should designate some space for ads if business model would be free + ads or premium with annual fees.
+          I should designate some space for ads if the business model would be free + ads or premium with annual fees.
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          I should have created a design system much earlier, to iterate quicker between different ideas in low and high fidelity designs.
+          I should have created a design system much earlier, to iterate quicker between different ideas in low and high-fidelity designs.
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
           I should pay more attention while creating questions for the survey, in later design stages it would be useful to know about e.g. phone that respondents use (android or ios)
