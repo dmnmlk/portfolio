@@ -127,16 +127,32 @@ $headings: (
   color: #3BBA6C;
 }
 
-.hikingapp-color:hover {
-  background: -webkit-linear-gradient(234.11deg, #FFCB48 14.19%, #FBC02D 49.45%, #F0B217 84.17%, #FABA1A 84.17%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.hikingapp-color {
+  background: linear-gradient(90deg, #FFC940 6.81%, #FFC639 22.6%, #FABF2C 36.35%, #F0B217 52.9%, #FABF2C 68.69%, #FFC639 83.97%, #FFC940 97.72%);
 }
 
-.swimlane-color:hover {
-  background: -webkit-linear-gradient(55.22deg, #15229F 0%, #091794 0.01%, #15229F 52.6%, #2634B9 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.swimlane-color {
+  background: linear-gradient(90deg, #4E5CD5 0%, #2332B5 15.67%, #1624A1 34.37%, #0B1995 51.25%, #1624A1 67.16%, #2332B5 83.9%, #4E5CD4 100%);
+}
+
+.animate-text {
+  background-size: 200% 200%;
+  animation: shine 2s linear infinite;
+  background-clip: text;
+  -webkit-background-clip:text;
+  color:rgba(0,0,0,1);
+  transition: color .2s ease-in-out;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.swimlane-color:hover,
+.hikingapp-color:hover {
+  color:rgba(0,0,0,0);
 }
 
 .quote {

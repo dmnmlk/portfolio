@@ -835,12 +835,12 @@
     </div>
     <div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720 d-flex flex-column">
-        <div class="mb-4">
+        <div class="mb-8">
           Next case study
         </div>
         <div>
-          <NuxtLink to="/swimlane-case-study" class="swimlane-color text-decoration-none text-h3">
-            Swimlane >
+          <NuxtLink to="/swimlane-case-study" class="swimlane-color d-flex justify-center animate-text font-weight-bold text-decoration-none text-h1">
+            Swimlane
           </NuxtLink>
         </div>
       </div>

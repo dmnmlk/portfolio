@@ -443,8 +443,8 @@
           Next case study
         </div>
         <div>
-          <NuxtLink to="/hiking-app-case-study" class="hikingapp-color text-decoration-none text-h3">
-            Hiking app >
+          <NuxtLink to="/hiking-app-case-study" class="hikingapp-color d-flex justify-center animate-text font-weight-bold text-decoration-none text-h1">
+            Hiking app
           </NuxtLink>
         </div>
       </div>
