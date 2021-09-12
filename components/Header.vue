@@ -11,9 +11,29 @@
         <NuxtLink to="/" class="text-decoration-none text-h2">
           DM
         </NuxtLink>
-        <div>
-          <!-- <a href="/cv.pdf" target="_blank" class="text-decoration-none menu-item text-body-1">Resume</a> -->
-          <NuxtLink to="/about" class="text-decoration-none menu-item text-body-1">
+        <div class="d-flex">
+          <v-menu offset-y>
+            <template v-slot:activator="{ on, attrs }">
+              <div
+                class="link menu-item text-body-1"
+                v-bind="attrs"
+                v-on="on"
+              >
+                Resume
+              </div>
+            </template>
+            <v-list>
+              <v-list-item
+                v-for="(item, index) in resumeItems"
+                :key="index"
+              >
+                <v-list-item-title>
+                  <a :href="item.link" target="_blank" class="link text-body-1">{{ item.title }}</a>
+                </v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-menu>
+          <NuxtLink to="/about" class="link menu-item text-body-1">
             About me
           </NuxtLink>
         </div>
@@ -26,7 +46,11 @@ export default {
   data () {
     return {
       showNavbar: true,
-      lastScrollPosition: 0
+      lastScrollPosition: 0,
+      resumeItems: [
+        { title: 'English', link: '/resume.pdf' },
+        { title: 'Polish', link: '/resume_pl.pdf' }
+      ]
     }
   },
   mounted () {
@@ -80,5 +104,13 @@ export default {
 
   .menu-item {
     margin-left: 40px;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .link:hover {
+    text-decoration: underline;
   }
 </style>

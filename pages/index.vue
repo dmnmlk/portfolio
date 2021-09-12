@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="text-h4">
-            Product Designer with coding background. Passionate about user-centric approach in everyday work.
+            UX Designer with coding background. Passionate about user-centric approach in everyday work.
           </div>
         </div>
       </div>
@@ -49,14 +49,14 @@
                 Hiking mApp
               </div>
               Map based application that allows you to create hiking routes and collect information about your badges.
-              <div class="mt-6">
-                <v-chip label>
+              <div>
+                <v-chip label class="mt-2">
                   Android app
                 </v-chip>
-                <v-chip label>
+                <v-chip label class="mt-2">
                   Product Designer
                 </v-chip>
-                <v-chip label>
+                <v-chip label class="mt-2">
                   UX Researcher
                 </v-chip>
               </div>
@@ -90,14 +90,14 @@
                 Swimlane
               </div>
               Application for swimming pool tickets with possibility of reservation and using membership cards.
-              <div class="mt-6">
-                <v-chip label>
+              <div>
+                <v-chip label class="mt-2">
                   iOS app
                 </v-chip>
-                <v-chip label>
+                <v-chip label class="mt-2">
                   Product Designer
                 </v-chip>
-                <v-chip label>
+                <v-chip label class="mt-2">
                   UX Researcher
                 </v-chip>
               </div>

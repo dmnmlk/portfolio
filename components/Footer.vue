@@ -10,7 +10,7 @@
       class="secondary text-center"
     >
       <v-card-text>
-        <a href="https://www.linkedin.com/in/damianmalek/" class="text-decoration-none">
+        <a href="https://www.linkedin.com/in/damianmalek/" target="_blank" class="text-decoration-none">
           <v-btn
             class="mx-4"
             icon
@@ -23,7 +23,7 @@
             </v-icon>
           </v-btn>
         </a>
-        <a href="https://damianmalek.medium.com" class="text-decoration-none">
+        <a href="https://damianmalek.medium.com" target="_blank" class="text-decoration-none">
           <v-btn
             class="mx-4"
             icon

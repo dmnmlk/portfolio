@@ -5,7 +5,7 @@
         About me
       </div>
       <div class="text-body-1">
-        I'm Damian Malek, product designer with front-end development background. With over 2 years of experience in UX field I was involved in several projects from different industries - from e-commerce website selling spare parts for cars to b2b website for furniture retailer. Prior to design roles, I was working as front-end and occasionally back-end developer for nearly 4 years.
+        I'm Damian Malek, UX designer with front-end development background. With over 2 years of experience in UX field I was involved in several projects from different industries - from e-commerce website selling spare parts for cars to b2b website for furniture retailer. Prior to design roles, I was working as front-end and occasionally back-end developer for nearly 4 years.
       </div>
       <div class="text-h4 font-weight-bold mb-4 mt-8">
         Timeline
@@ -38,7 +38,7 @@
               <strong>2018</strong>
             </div>
             <div>
-              Graduated from Rzeszow University of Technology with master degree in computer engineering
+              Graduated from Rzeszow UoT with Master of Science (MSc) in computer science
             </div>
           </div>
         </v-timeline-item>
@@ -52,7 +52,7 @@
               <strong>2019</strong>
             </div>
             <div>
-              Started my career as UX/Product Designer
+              Started my career as UX Designer
             </div>
           </div>
         </v-timeline-item>
@@ -73,7 +73,7 @@
                 Earned <a href="https://www.credly.com/badges/eb88efda-64f2-4bf7-be08-415f66df2401" target="_blank" rel="noopener noreferrer">Google UX Design Certificate</a>
               </div>
               <div class="mt-4">
-                Started teaching product design at University of Information Technology and Management in Rzeszów
+                Started teaching product design at UITM in Rzeszow
               </div>
             </div>
           </div>
@@ -133,6 +133,15 @@
       <div class="text-body-1">
         Want to get in touch? Feel free to contact me via mail or linkedin
       </div>
+      <div class="text-h4 font-weight-bold mb-4 mt-16">
+        Resume
+      </div>
+      <v-btn>
+        <a href="/resume.pdf" target="_blank" class="text-decoration-none text-body-1">Resume in English</a>
+      </v-btn>
+      <v-btn>
+        <a href="/resume_pl.pdf" target="_blank" class="text-decoration-none text-body-1">Resume in Polish</a>
+      </v-btn>
     </div>
   </v-container>
 </template>
