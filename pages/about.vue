@@ -20,50 +20,6 @@
             <div
               class="mr-8"
             >
-              <strong>2016</strong>
-            </div>
-            <div>
-              Started my professional career as software developer
-            </div>
-          </div>
-        </v-timeline-item>
-        <v-timeline-item small>
-          <div
-            class="d-flex align-center"
-            :class="$vuetify.breakpoint.mdAndDown ? 'flex-row' : 'flex-row-reverse'"
-          >
-            <div
-              :class="$vuetify.breakpoint.mdAndDown ? 'mr-8' : 'ml-8'"
-            >
-              <strong>2018</strong>
-            </div>
-            <div>
-              Graduated from Rzeszow UoT with Master of Science (MSc) in computer science
-            </div>
-          </div>
-        </v-timeline-item>
-        <v-timeline-item small>
-          <div
-            class="d-flex align-center"
-          >
-            <div
-              class="mr-8"
-            >
-              <strong>2019</strong>
-            </div>
-            <div>
-              Started my career as UX Designer
-            </div>
-          </div>
-        </v-timeline-item>
-        <v-timeline-item small>
-          <div
-            class="d-flex align-center"
-            :class="$vuetify.breakpoint.mdAndDown ? 'flex-row' : 'flex-row-reverse'"
-          >
-            <div
-              :class="$vuetify.breakpoint.mdAndDown ? 'mr-8' : 'ml-8'"
-            >
               <strong>2021</strong>
             </div>
             <div>
@@ -75,6 +31,50 @@
               <div class="mt-4">
                 Started teaching product design at UITM in Rzeszow
               </div>
+            </div>
+          </div>
+        </v-timeline-item>
+        <v-timeline-item small>
+          <div
+            class="d-flex align-center"
+            :class="$vuetify.breakpoint.mdAndDown ? 'flex-row' : 'flex-row-reverse'"
+          >
+            <div
+              :class="$vuetify.breakpoint.mdAndDown ? 'mr-8' : 'ml-8'"
+            >
+              <strong>2019</strong>
+            </div>
+            <div>
+              Started my career as UX Designer
+            </div>
+          </div>
+        </v-timeline-item>
+        <v-timeline-item small>
+          <div
+            class="d-flex align-center"
+          >
+            <div
+              class="mr-8"
+            >
+              <strong>2018</strong>
+            </div>
+            <div>
+              Graduated from Rzeszow UoT with Master of Science (MSc) in computer science
+            </div>
+          </div>
+        </v-timeline-item>
+        <v-timeline-item small>
+          <div
+            class="d-flex align-center"
+            :class="$vuetify.breakpoint.mdAndDown ? 'flex-row' : 'flex-row-reverse'"
+          >
+            <div
+              :class="$vuetify.breakpoint.mdAndDown ? 'mr-8' : 'ml-8'"
+            >
+              <strong>2016</strong>
+            </div>
+            <div>
+              Started my professional career as software developer
             </div>
           </div>
         </v-timeline-item>
