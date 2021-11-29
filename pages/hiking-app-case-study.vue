@@ -96,15 +96,15 @@
           Overview
         </div>
         <div class="text-body-1">
-          <strong>Hiking mApp</strong> is an application for people who loves to hike outdoor. You can create new routes to find information about trail distance, estimated time, etc. However, this application is different from the competition because it introduces the "Goals & Achievements" panel in the user menu which is targeted at users that are collecting badges. Badges are rewards eg. for reaching all the peaks in given mountain region. All this information can be added to the user profile so it can be collected over the years to give a sense of achievement. The app is encouraging people to hike more often and be more healthy!
+          <strong>Hiking mApp</strong> is an application for people who loves to hike outdoor. Users can create new routes to find information about trail distance, estimated time, etc. However, this application is different from the competition because it introduces the "Goals & Achievements" panel in the user menu which is targeted at users that are collecting badges. Badges are rewards eg. for reaching all the peaks in given mountain region. All this information can be added to the user profile so it can be collected over the years to give a sense of achievement. The app is encouraging people to hike more often and be more healthy!
         </div>
       </div>
       <div>
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Challenges
         </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row">
+          <div class="text-bignumber mr-8">
             #1
           </div>
           <div class="mb-8">
@@ -116,8 +116,8 @@
             </div>
           </div>
         </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row">
+          <div class="text-bignumber mr-8">
             #2
           </div>
           <div class="mb-8">
@@ -129,8 +129,8 @@
             </div>
           </div>
         </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row">
+          <div class="text-bignumber mr-8">
             #3
           </div>
           <div class="mb-8">
@@ -147,24 +147,24 @@
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Goals
         </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row">
+          <div class="text-bignumber mr-8">
             #1
           </div>
           <div class="mb-8 text-body-1">
             Creating an app that can be used alone on hiking trips without help from other similar apps. It should have the possibility to create routes, mark the point of interest, gather data of different badge types, and show statistics on completed routes in the past.
           </div>
         </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row">
+          <div class="text-bignumber mr-8">
             #2
           </div>
           <div class="mb-8 text-body-1">
             Badge module that would give a sense of achievement after filling it. Information about collected badges could land on user's social media.
           </div>
         </div>
-        <div class="d-flex">
-          <div class="text-bignumber mr-8 d-none d-md-block">
+        <div class="d-flex flex-column flex-md-row">
+          <div class="text-bignumber mr-8">
             #3
           </div>
           <div class="mb-8 text-body-1">

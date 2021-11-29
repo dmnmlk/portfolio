@@ -26,6 +26,12 @@ $material-light: (
   }
 }
 
+.details {
+  background-color: #F5F5F5;
+  padding: 16px;
+  border-radius: 4px;
+}
+
 $headings: (
   'h1': (
     'size': 3rem,
@@ -135,6 +141,10 @@ $headings: (
   background: linear-gradient(90deg, #4E5CD5 0%, #2332B5 15.67%, #1624A1 34.37%, #0B1995 51.25%, #1624A1 67.16%, #2332B5 83.9%, #4E5CD4 100%);
 }
 
+.efurniture-color {
+  background: linear-gradient(90deg, rgba(186,186,186,1) 0%, rgba(183,183,183,1) 17%, rgba(166,165,165,1) 35%, rgba(129,129,129,1) 52%, rgba(166,165,165,1) 68%, rgba(183,183,183,1) 85%, rgba(186,186,186,1) 100%);
+}
+
 .animate-text {
   background-size: 200% 200%;
   animation: shine 2s linear infinite;
@@ -151,7 +161,8 @@ $headings: (
 }
 
 .swimlane-color:hover,
-.hikingapp-color:hover {
+.hikingapp-color:hover,
+.efurniture-color:hover {
   color:rgba(0,0,0,0);
 }
 

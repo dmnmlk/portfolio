@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-    <NuxtLink to="/hiking-app-case-study" class="text-decoration-none menu-item text-body-1">
+    <NuxtLink to="/efurniture-case-study" class="text-decoration-none menu-item text-body-1">
       <v-hover
         v-slot="{ hover }"
       >
@@ -32,6 +32,47 @@
           tile
           :elevation="hover ? 16 : 8"
           class="d-flex align-center flex-column flex-md-row mx-sm-auto mx-md-0"
+          :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
+        >
+          <v-img
+            :src="require('~/assets/images/homepage/efurniture.png')"
+            :lazy-src="require('~/assets/images/homepage/efurniture.png')"
+            contain
+            :max-width="$vuetify.breakpoint.smOnly ? '528px' : $vuetify.breakpoint.mdAndUp ? '50%' : '100%'"
+          />
+          <div>
+            <v-card-text class="text-body-1">
+              <div class="text-overline grey-color">
+                Case Study / Commercial project
+              </div>
+              <div class="text-h2 font-weight-bold mt-3 mb-3">
+                eFurniture
+              </div>
+              E-commerce store that offers basic and customizable furniture.
+              <div>
+                <v-chip label class="mt-2">
+                  Web app
+                </v-chip>
+                <v-chip label class="mt-2">
+                  UX Designer
+                </v-chip>
+                <v-chip label class="mt-2">
+                  Analyst
+                </v-chip>
+              </div>
+            </v-card-text>
+          </div>
+        </v-card>
+      </v-hover>
+    </NuxtLink>
+    <NuxtLink to="/hiking-app-case-study" class="text-decoration-none menu-item text-body-1">
+      <v-hover
+        v-slot="{ hover }"
+      >
+        <v-card
+          tile
+          :elevation="hover ? 16 : 8"
+          class="d-flex align-center flex-column flex-md-row-reverse mx-sm-auto mx-md-0 mt-16"
           :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
         >
           <v-img
@@ -72,7 +113,7 @@
         <v-card
           tile
           :elevation="hover ? 16 : 8"
-          class="d-flex align-center flex-column flex-md-row-reverse mx-sm-auto mx-md-0 mt-16"
+          class="d-flex align-center flex-column flex-md-row mx-sm-auto mx-md-0 mt-16"
           :max-width="$vuetify.breakpoint.smOnly ? '528px' : '100%'"
         >
           <v-img

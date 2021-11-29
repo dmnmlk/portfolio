@@ -5,7 +5,7 @@
         About me
       </div>
       <div class="text-body-1">
-        I'm Damian Malek, UX designer with front-end development background. With over 2 years of experience in UX field I was involved in several projects from different industries - from e-commerce website selling spare parts for cars to b2b website for furniture retailer. Prior to design roles, I was working as front-end and occasionally back-end developer for nearly 4 years.
+        I'm Damian Malek, UX designer and Analyst. With over 2,5+ years of experience in UX field I was involved in several projects from different industries from Automotive and Constuction to Information, Advertising and Education industry. Prior to design roles, I was working as front-end and occasionally back-end developer for 3 years.
       </div>
       <div class="text-h4 font-weight-bold mb-4 mt-8">
         Timeline
