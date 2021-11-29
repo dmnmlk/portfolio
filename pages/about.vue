@@ -5,7 +5,7 @@
         About me
       </div>
       <div class="text-body-1">
-        I'm Damian Malek, UX designer and Analyst. With over 2,5+ years of experience in UX field I was involved in several projects from different industries from Automotive and Constuction to Information, Advertising and Education industry. Prior to design roles, I was working as front-end and occasionally back-end developer for 3 years.
+        I'm Damian Malek, UX designer and Analyst. While being in UX field from 2019 I was involved in several projects from different industries from Automotive and Constuction to Information, Advertising and Education industry. Prior to design roles, I was working as front-end and occasionally back-end developer for 3 years.
       </div>
       <div class="text-h4 font-weight-bold mb-4 mt-8">
         Timeline
@@ -94,10 +94,10 @@
       <div class="text-h4 font-weight-bold mb-4 mt-8">
         Sentences I identify with
       </div>
-      <div class="text-body-1">
+      <div class="text-body-1 quote">
         Fighting with biases everyday
       </div>
-      <div class="text-body-1 mt-2">
+      <div class="text-body-1 mt-2 quote">
         Engineer by qualification, designer by choice
       </div>
       <div class="text-h4 font-weight-bold mb-4 mt-16">
@@ -105,7 +105,7 @@
       </div>
       <div class="d-flex justify-space-between align-center align-sm-start flex-column flex-sm-row">
         <div class="personal-life text-body-1">
-          I live in Rzeszów. In my free time I like to hike with my fiancée in Polish mountains.
+          I live in Rzeszów. In my free time I like to hike with my wife and dog in Polish mountains.
           <div
             v-if="$vuetify.breakpoint.xsOnly"
             class="mt-6"
