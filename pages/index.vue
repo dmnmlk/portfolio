@@ -106,7 +106,7 @@
         </v-card>
       </v-hover>
     </NuxtLink>
-    <NuxtLink to="/swimlane-case-study" class="text-decoration-none menu-item text-body-1">
+    <!-- <NuxtLink to="/swimlane-case-study" class="text-decoration-none menu-item text-body-1">
       <v-hover
         v-slot="{ hover }"
       >
@@ -146,7 +146,7 @@
           </div>
         </v-card>
       </v-hover>
-    </NuxtLink>
+    </NuxtLink> -->
     <!-- <NuxtLink to="/grocery-store-case-study" class="text-decoration-none menu-item text-body-1">
       <v-hover
         v-slot="{ hover }"
