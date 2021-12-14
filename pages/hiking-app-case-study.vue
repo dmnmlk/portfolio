@@ -39,7 +39,7 @@
             Team:
           </div>
           <div class="detail-val text-body-1">
-            only me as UX Researcher, UX/UI Designer
+            only me as UX/UI Designer and UX Researcher
           </div>
         </div>
         <div class="detail d-flex flex-column flex-md-row justify-space-between mb-4">
@@ -835,12 +835,12 @@
     </div>
     <div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720 d-flex flex-column">
-        <div class="mb-8">
+        <div class="mb-4">
           Next case study
         </div>
         <div>
-          <NuxtLink to="/swimlane-case-study" class="swimlane-color d-flex justify-center animate-text font-weight-bold text-decoration-none text-h1">
-            Swimlane
+          <NuxtLink to="/efurniture-case-study" class="efurniture-color d-flex justify-center animate-text font-weight-bold text-decoration-none text-h1">
+            eFurniture store
           </NuxtLink>
         </div>
       </div>

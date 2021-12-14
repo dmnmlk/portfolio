@@ -36,7 +36,7 @@
             </v-icon>
           </v-btn>
         </a>
-        <a href="mailto:damianmalek@outlook.com" class="text-decoration-none">
+        <a href="mailto:damianmalek001@gmail.com" class="text-decoration-none">
           <v-btn
             class="mx-4"
             icon

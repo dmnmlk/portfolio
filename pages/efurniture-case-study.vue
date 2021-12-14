@@ -428,9 +428,6 @@
       </div>
       <ul>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          The opportunity to meet a company from the furniture industry. Understanding their structure, method of operation, approach to the end customer and competition.
-        </li>
-        <li class="text-body-1 mx-auto mw720 mt-4">
           In the next project, during the workshop, I will pay even more attention to individual functionalities and ask if they are to be part of the MVP or whether they can be transferred to the next stages.
         </li>
       </ul>
@@ -515,7 +512,7 @@ export default {
     }
   },
   head: {
-    title: 'Hiking app case study'
+    title: 'eFurniture case study'
   }
 }
 </script>
