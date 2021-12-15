@@ -246,7 +246,7 @@
         />
       </div>
       <div class="text-body-1 mx-auto mw720">
-        Those kinds of websites provide information about the regulations, summit lists, and other important information during earning badges. After a few days of visiting websites of this type, I was starting to wonder if there was an application that was collecting all this information in one place. It turned out that I couldn't find such an application, so I took up the challenge of trying to design an application that would help users to find information about badges in one place.
+        Those kinds of websites provide information about the regulations, summit lists, and other important information that can help collect badges. After a few days of visiting websites of this type, I was starting to wonder if there was an application that was collecting all this information in one place. It turned out that I couldn't find such an application, so I took up the challenge of trying to design an application that would help users to find information about badges in one place.
       </div>
     </div>
     <div id="section-2">
@@ -336,7 +336,6 @@
           elevation="8"
         >
           <v-img
-            class="mt-6"
             :src="require('~/assets/images/hiking_app/personas/1.png')"
             :lazy-src="require('~/assets/images/hiking_app/personas/1.png')"
             contain
@@ -347,7 +346,6 @@
           elevation="8"
         >
           <v-img
-            class="mt-6"
             :src="require('~/assets/images/hiking_app/personas/2.png')"
             :lazy-src="require('~/assets/images/hiking_app/personas/2.png')"
             contain

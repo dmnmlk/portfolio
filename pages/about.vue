@@ -4,8 +4,17 @@
       <div class="text-h1 hero-text mb-8">
         About me
       </div>
-      <div class="text-body-1">
-        I'm Damian Malek, UX designer and Analyst. While being in UX field from 2019 I was involved in several projects from different industries from Automotive and Constuction to Information, Advertising and Education industry. Prior to design roles, I was working as front-end and occasionally back-end developer for 3 years.
+      <div class="d-flex flex-column flex-md-row">
+        <div class="text-body-1 mr-md-12">
+          I'm Damian Małek, UX designer and Business Analyst. While being in UX field since 2019 I was involved in several projects involving different industries from Automotive and Constuction to Information, Advertising and Education industry. Prior to design roles, I was working as web developer for 3 years. From time to time I write articles at <a href="https://damianmalek.medium.com/" target="_blank" rel="noopener noreferrer">Medium</a> and contribute to the Figma community by sharing <a href="https://www.figma.com/@damianmalek" target="_blank" rel="noopener noreferrer">my design files.</a>
+        </div>
+        <v-img
+          class="mt-4 mt-sm-0"
+          :src="require('~/assets/images/about_me/photo.jpg')"
+          :lazy-src="require('~/assets/images/about_me/photo.jpg')"
+          contain
+          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : '33%'"
+        />
       </div>
       <div class="text-h4 font-weight-bold mb-4 mt-8">
         Timeline
@@ -26,10 +35,12 @@
               <div
                 :class="$vuetify.breakpoint.mdAndDown ? 'mt-4' : ''"
               >
-                Earned <a href="https://www.credly.com/badges/eb88efda-64f2-4bf7-be08-415f66df2401" target="_blank" rel="noopener noreferrer">Google UX Design Certificate</a>
-              </div>
-              <div class="mt-4">
                 Started teaching product design at UITM in Rzeszow
+              </div>
+              <div
+                class="mt-4"
+              >
+                Earned <a href="https://www.credly.com/badges/eb88efda-64f2-4bf7-be08-415f66df2401" target="_blank" rel="noopener noreferrer">Google UX Design Certificate</a>
               </div>
             </div>
           </div>
@@ -103,45 +114,12 @@
       <div class="text-h4 font-weight-bold mb-4 mt-16">
         Personal life
       </div>
-      <div class="d-flex justify-space-between align-center align-sm-start flex-column flex-sm-row">
-        <div class="personal-life text-body-1">
-          I live in Rzeszów. In my free time I like to hike with my wife and dog in Polish mountains.
-          <div
-            v-if="$vuetify.breakpoint.xsOnly"
-            class="mt-6"
-          >
-            That's me! ⬇️
-          </div>
-          <div
-            v-else
-            class="mt-6"
-          >
-            That's me! ➡️
-          </div>
-        </div>
-        <v-img
-          class="mt-4 mt-sm-0"
-          :src="require('~/assets/images/about_me/photo.jpg')"
-          :lazy-src="require('~/assets/images/about_me/photo.jpg')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '75%' : '45%'"
-        />
+      <div class="text-body-1">
+        I live in Rzeszów. In my free time I like to hike with my wife and dog in Polish mountains.
       </div>
       <div class="text-body-1 mt-16 mb-4">
-        Thanks for visiting my website!
+        Thanks for visiting my website! Want to get in touch? Feel free to contact me via mail or linkedin
       </div>
-      <div class="text-body-1">
-        Want to get in touch? Feel free to contact me via mail or linkedin
-      </div>
-      <div class="text-h4 font-weight-bold mb-4 mt-16">
-        Resume
-      </div>
-      <v-btn>
-        <a href="/resume.pdf" target="_blank" class="text-decoration-none text-body-1">Resume in English</a>
-      </v-btn>
-      <v-btn>
-        <a href="/resume_pl.pdf" target="_blank" class="text-decoration-none text-body-1">Resume in Polish</a>
-      </v-btn>
     </div>
   </v-container>
 </template>
@@ -155,13 +133,5 @@ export default {
 @import '~vuetify/src/styles/styles.sass';
 .hero-text {
   margin-top: 200px;
-}
-
-.personal-life {
-  max-width: 45%;
-
-  @media #{map-get($display-breakpoints, 'xs-only')} {
-    max-width: 100%;
-  }
 }
 </style>

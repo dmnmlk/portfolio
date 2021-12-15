@@ -275,7 +275,7 @@
         It turns out that custom-made furniture configurator was popular service among competitors.
       </div>
       <div class="text-body-1 mx-auto mw720 mt-4">
-        <strong>Personas</strong> was based on four things: expert opinions I collected at meetings, Google Analytics data, phone calls from users and empathy map that I prepared to better categorise users.
+        <strong>Personas</strong> were based on four things: expert opinions I collected at meetings, Google Analytics data, phone calls from users and empathy map that I prepared to better categorise users.
       </div>
       <div class="text-body-1 mx-auto mw720 mt-4">
         To create <strong>Information Architecture</strong> I audited current shop and competition and looked for some common patterns in content. Then during meetings I asked what categories and products are most important for them from business side. Finally I proposed Information Architecture and used Card Sorting method to test if category tree is free of misunderstandings. The result of building an information architecture in this way was that users could find one product using three different paths:
