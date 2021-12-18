@@ -130,30 +130,46 @@
         <div class="text-h4 mt-12 mb-6 font-weight-bold">
           Challenges
         </div>
-        <div class="d-flex flex-column flex-md-row">
-          <div class="text-bignumber mr-8">
-            #1
+        <div class="d-flex flex-column">
+          <div class="d-flex flex-column flex-md-row align-center">
+            <v-img
+              :src="require('~/assets/images/efurniture/challenges/1.png')"
+              :lazy-src="require('~/assets/images/efurniture/challenges/1.png')"
+              contain
+              :max-width="$vuetify.breakpoint.smAndDown ? '50%' : '33%'"
+            />
+            <div class="d-flex flex-column align-center ml-md-8">
+              <div class="text-bignumber mb-4 mt-4 mt-md-0">
+                #1
+              </div>
+              <div class="text-body-1 font-weight-bold">
+                How to introduce customization of furniture on new shop so it can be an automated process for eFurniture employees?
+              </div>
+            </div>
           </div>
-          <div class="mb-8">
-            <div class="text-body-1 font-weight-bold">
-              How to introduce customization of furniture on new shop so it can be an automated process for eFurniture employees?
-            </div>
-            <div class="text-body-1">
-              Until analysis, eFurniture employees were collecting customized orders by phone, but they were not able to answer immediately how much would it cost. Since customers were interested in such informations, web solution must present individual price of element that is part of customized product.
-            </div>
+          <div class="text-body-1 mt-8">
+            Until analysis, eFurniture employees were collecting customized orders by phone, but they were not able to answer immediately how much would it cost. Since customers were interested in such informations, web solution must present individual price of element that is part of customized product.
           </div>
         </div>
-        <div class="d-flex flex-column flex-md-row">
-          <div class="text-bignumber mr-8">
-            #2
+        <div class="d-flex flex-column mt-16">
+          <div class="d-flex flex-column-reverse flex-md-row align-center">
+            <div class="d-flex flex-column align-center mr-md-8">
+              <div class="text-bignumber mb-4 mt-4 mt-md-0">
+                #2
+              </div>
+              <div class="text-body-1 font-weight-bold">
+                How to integrate systems (CMS, Baselinker and ERP) with each other so that data exchange is as smooth as possible and all changes in prices and product availability are always up-to-date on website?
+              </div>
+            </div>
+            <v-img
+              :src="require('~/assets/images/efurniture/challenges/2.png')"
+              :lazy-src="require('~/assets/images/efurniture/challenges/2.png')"
+              contain
+              :max-width="$vuetify.breakpoint.smAndDown ? '50%' : '33%'"
+            />
           </div>
-          <div class="mb-8">
-            <div class="text-body-1 font-weight-bold">
-              How to integrate systems (CMS, Baselinker and ERP) with each other so that data exchange is as smooth as possible and all changes in prices and product availability are always up-to-date on website?
-            </div>
-            <div class="text-body-1">
-              Since there was no integration with Baselinker in the old store, the way of communication between systems should be thought out so that 25,000 products are up-to-date.
-            </div>
+          <div class="text-body-1 mt-8">
+            Since there was no integration with Baselinker in the old store, the way of communication between systems should be thought out so that 25,000 products are up-to-date.
           </div>
         </div>
       </div>
@@ -183,22 +199,6 @@
           </div>
           <div class="mb-8 text-body-1">
             Build full-text search engine that helps people find what they're looking.
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-md-row">
-          <div class="text-bignumber mr-8">
-            #4
-          </div>
-          <div class="mb-8 text-body-1">
-            Ensure that Google Page Speed score is high across different website pages.
-          </div>
-        </div>
-        <div class="d-flex flex-column flex-md-row">
-          <div class="text-bignumber mr-8">
-            #5
-          </div>
-          <div class="mb-8 text-body-1">
-            Create a website that will be inclusive and should meet WCAG2.1 guidelines.
           </div>
         </div>
       </div>
@@ -264,12 +264,11 @@
       <v-data-table
         :headers="headers"
         :items="items"
-        :items-per-page="5"
         disable-filtering
         disable-pagination
         disable-sort
         hide-default-footer
-        class="elevation-8 mt-6"
+        class="elevation-8 mt-6 p-4"
       />
       <div class="text-body-1 mx-auto mw720 mt-6">
         It turns out that custom-made furniture configurator was popular service among competitors.
@@ -303,50 +302,80 @@
         During meetings with the client, I showed wireframes that were discussed from business point of view one more time to ensure everything looks and behaves as expected. Here are some wireframes:
       </div>
       <div class="d-flex justify-space-between flex-column flex-sm-row">
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/efurniture/wireframes/1.png')"
-          :lazy-src="require('~/assets/images/efurniture/wireframes/1.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/efurniture/wireframes/2.png')"
-          :lazy-src="require('~/assets/images/efurniture/wireframes/2.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/efurniture/wireframes/3.png')"
-          :lazy-src="require('~/assets/images/efurniture/wireframes/3.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
+        <div class="mt-10">
+          <div class="text-body-1 d-flex justify-center">
+            Homepage
+          </div>
+          <v-img
+            class="mt-2"
+            :src="require('~/assets/images/efurniture/wireframes/1.png')"
+            :lazy-src="require('~/assets/images/efurniture/wireframes/1.png')"
+            contain
+            :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+          />
+        </div>
+        <div class="mt-10">
+          <div class="text-body-1 d-flex justify-center">
+            Product list
+          </div>
+          <v-img
+            class="mt-2"
+            :src="require('~/assets/images/efurniture/wireframes/2.png')"
+            :lazy-src="require('~/assets/images/efurniture/wireframes/2.png')"
+            contain
+            :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+          />
+        </div>
+        <div class="mt-10">
+          <div class="text-body-1 d-flex justify-center">
+            Product card
+          </div>
+          <v-img
+            class="mt-2"
+            :src="require('~/assets/images/efurniture/wireframes/3.png')"
+            :lazy-src="require('~/assets/images/efurniture/wireframes/3.png')"
+            contain
+            :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+          />
+        </div>
       </div>
       <div class="d-flex justify-space-between flex-column flex-sm-row">
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/efurniture/wireframes/4.png')"
-          :lazy-src="require('~/assets/images/efurniture/wireframes/4.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/efurniture/wireframes/5.png')"
-          :lazy-src="require('~/assets/images/efurniture/wireframes/5.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
-        <v-img
-          class="mt-6"
-          :src="require('~/assets/images/efurniture/wireframes/6.png')"
-          :lazy-src="require('~/assets/images/efurniture/wireframes/6.png')"
-          contain
-          :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
-        />
+        <div class="mt-10">
+          <div class="text-body-1 d-flex justify-center">
+            Basket
+          </div>
+          <v-img
+            class="mt-2"
+            :src="require('~/assets/images/efurniture/wireframes/4.png')"
+            :lazy-src="require('~/assets/images/efurniture/wireframes/4.png')"
+            contain
+            :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+          />
+        </div>
+        <div class="mt-10">
+          <div class="text-body-1 d-flex justify-center">
+            Favourites
+          </div>
+          <v-img
+            class="mt-2"
+            :src="require('~/assets/images/efurniture/wireframes/5.png')"
+            :lazy-src="require('~/assets/images/efurniture/wireframes/5.png')"
+            contain
+            :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+          />
+        </div>
+        <div class="mt-10">
+          <div class="text-body-1 d-flex justify-center">
+            Custom-made furniture
+          </div>
+          <v-img
+            class="mt-2"
+            :src="require('~/assets/images/efurniture/wireframes/6.png')"
+            :lazy-src="require('~/assets/images/efurniture/wireframes/6.png')"
+            contain
+            :max-width="$vuetify.breakpoint.xsOnly ? '100%' : ($vuetify.breakpoint.smOnly || $vuetify.breakpoint.mdOnly) ? '30%' : '333px'"
+          />
+        </div>
       </div>
       <div class="text-body-1 mx-auto mw720 mt-4">
         Most challenging wireframes were custom-made furniture. During workshops, it turned out that not all custom furniture orders could be handled by eFurniture employees.  They had their own internal processes which they had to follow, so during the analysis we had to adapt to their way of working.
@@ -359,8 +388,16 @@
       <div class="text-body-1 mx-auto mw720 mt-4">
         In parallel with wireframes, I was creating Functional Specification document. Since not everything can be presented on wireframes this document can cointain technical information, for example descriptions of integrations with external systems or more complicated business processes.
       </div>
-      <div class="text-body-1 mx-auto mw720 mt-4">
-        Here is example how document looks like: <a href="/efurniture_functional_specification.pdf" target="_blank" class="link text-body-1">Functional specification</a>
+      <div class="d-flex align-center mx-auto mw720 my-4">
+        <div class="text-body-1 mx-auto mw720 mr-4">
+          Here is example how functional specification document looks like: <a href="/efurniture_functional_specification.pdf" target="_blank" class="link text-body-1">Functional specification</a>
+        </div>
+        <v-img
+          :src="require('~/assets/images/efurniture/functional_specification/1.png')"
+          :lazy-src="require('~/assets/images/efurniture/functional_specification/1.png')"
+          contain
+          :max-width="$vuetify.breakpoint.smAndDown ? '50%' : '33%'"
+        />
       </div>
       <div class="text-body-1 mx-auto mw720 mt-4">
         Most important parts of this file are functional requirements that contains user stories and integrations where connections between systems are explained.
@@ -403,6 +440,13 @@
       </div>
       <div class="text-body-1 mx-auto mw720 mt-4">
         When wireframes and functional specification was accepted by the client everything was set and ready to estimate project and mark first stage of the project as completed.
+      </div>
+      <div class="mw720 mx-auto">
+        <v-img
+          :src="require('~/assets/images/efurniture/conclusions/1.png')"
+          :lazy-src="require('~/assets/images/efurniture/conclusions/1.png')"
+          contain
+        />
       </div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720">
         Ideas for future designs & tests
@@ -457,7 +501,7 @@ export default {
         { text: 'Custom-made furniture', value: 'custom', class: 'text-body-1 font-weight-bold' },
         { text: 'Pick up at physical store', value: 'pickup', class: 'text-body-1 font-weight-bold' },
         { text: 'Mobile app', value: 'mobile', class: 'text-body-1 font-weight-bold' },
-        { text: 'Order without registration', value: 'noreg', class: 'text-body-1 font-weight-bold' }
+        { text: 'Checkout without registration', value: 'noreg', class: 'text-body-1 font-weight-bold' }
       ],
       items: [
         {
@@ -555,5 +599,12 @@ export default {
         width: 100%;
       }
     }
+  }
+  .v-data-table {
+    padding: 24px;
+  }
+
+  tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);
   }
 </style>
