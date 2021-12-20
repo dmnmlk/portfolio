@@ -48,8 +48,8 @@ export default {
       showNavbar: true,
       lastScrollPosition: 0,
       resumeItems: [
-        { title: 'English', link: '/resume.pdf' },
-        { title: 'Polish', link: '/resume_pl.pdf' }
+        { title: 'English', link: '/damian_malek_en.pdf' },
+        { title: 'Polish', link: '/damian_malek_pl.pdf' }
       ]
     }
   },
