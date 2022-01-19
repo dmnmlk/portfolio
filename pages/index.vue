@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-    <NuxtLink to="/efurniture-case-study" class="text-decoration-none menu-item text-body-1">
+    <!-- <NuxtLink to="/efurniture-case-study" class="text-decoration-none menu-item text-body-1">
       <v-hover
         v-slot="{ hover }"
       >
@@ -64,7 +64,7 @@
           </div>
         </v-card>
       </v-hover>
-    </NuxtLink>
+    </NuxtLink> -->
     <NuxtLink to="/hiking-app-case-study" class="text-decoration-none menu-item text-body-1">
       <v-hover
         v-slot="{ hover }"
