@@ -12,7 +12,8 @@
           DM
         </NuxtLink>
         <div class="d-flex">
-          <v-menu offset-y>
+          <!-- This in case I would need Polish and English CV in the future -->
+          <!-- <v-menu offset-y>
             <template v-slot:activator="{ on, attrs }">
               <div
                 class="link menu-item text-body-1"
@@ -32,7 +33,10 @@
                 </v-list-item-title>
               </v-list-item>
             </v-list>
-          </v-menu>
+          </v-menu> -->
+          <NuxtLink to="/damian_malek_cv.pdf" target="_blank" class="link menu-item text-body-1">
+            Resume
+          </NuxtLink>
           <NuxtLink to="/about" class="link menu-item text-body-1">
             About me
           </NuxtLink>

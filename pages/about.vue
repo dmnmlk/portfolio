@@ -6,7 +6,7 @@
       </div>
       <div class="d-flex flex-column flex-md-row">
         <div class="text-body-1 mr-md-12">
-          I'm Damian Małek, UX designer and Business Analyst. While being in UX field since 2019 I was involved in several projects involving different industries from Automotive and Constuction to Information, Advertising and Education industry. Prior to design roles, I was working as web developer for 3 years. From time to time I write articles at <a href="https://damianmalek.medium.com/" target="_blank" rel="noopener noreferrer">Medium</a> and contribute to the Figma community by sharing <a href="https://www.figma.com/@damianmalek" target="_blank" rel="noopener noreferrer">my design files.</a>
+          I'm Damian Małek, Senior UX designer. My primary focus is on Insurance Industry at Guidewire where I’m part of a team working on our own Design System called Jutro (from Polish word “tomorrow”). While being in UX field since 2019 I was involved in several projects involving different industries from Automotive and Constuction to Information, Advertising and Education industry. Prior to design roles, I was working as web developer for 3 years. From time to time I write articles at <a href="https://damianmalek.medium.com/" target="_blank" rel="noopener noreferrer">Medium</a> and contribute to the Figma community by sharing <a href="https://www.figma.com/@damianmalek" target="_blank" rel="noopener noreferrer">my design files.</a>
         </div>
         <v-img
           class="mt-4 mt-sm-0"
@@ -40,7 +40,7 @@
               <div
                 class="mt-4"
               >
-                Earned <a href="https://www.credly.com/badges/eb88efda-64f2-4bf7-be08-415f66df2401" target="_blank" rel="noopener noreferrer">Google UX Design Certificate</a>
+                Earned <a href="https://www.credly.com/badges/e73cc5d2-3d45-4e12-8bde-14e4e4cc1243/public_url" target="_blank" rel="noopener noreferrer">Google UX Design Certificate</a>
               </div>
             </div>
           </div>

@@ -19,7 +19,7 @@
             </div>
           </div>
           <div class="text-h4">
-            UX Designer and Analyst with technical background. Passionate about user-centric approach in everyday work.
+            Senior UX Designer with technical background. Passionate about user-centric approach in everyday work.
           </div>
         </div>
       </div>

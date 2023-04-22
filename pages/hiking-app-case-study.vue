@@ -827,11 +827,11 @@
           I should have created a design system much earlier, to iterate quicker between different ideas in low and high-fidelity designs.
         </li>
         <li class="text-body-1 mx-auto mw720 mt-4">
-          I should pay more attention while creating questions for the survey, in later design stages it would be useful to know about e.g. phone that respondents use (android or ios)
+          I should pay more attention while creating questions for the survey, in later design stages it would be useful to know about e.g. phone that respondents use (android or ios).
         </li>
       </ul>
     </div>
-    <div>
+    <!-- <div>
       <div class="text-h4 mt-12 mb-6 font-weight-bold mx-auto mw720 d-flex flex-column">
         <div class="mb-4">
           Next case study
@@ -842,7 +842,7 @@
           </NuxtLink>
         </div>
       </div>
-    </div>
+    </div> -->
   </v-container>
 </template>
 <script>
